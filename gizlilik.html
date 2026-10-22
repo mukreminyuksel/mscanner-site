@@ -34,7 +34,8 @@ li{margin:4px 0}
 <ul>
 <li><strong>Kamera:</strong> belge ve QR/barkod taramak için. Görüntüler yalnız cihazda saklanır.</li>
 <li><strong>Fotoğraflar:</strong> taranacak görüntüleri seçmek ve sizin isteğinizle sayfaları Fotoğraflar'a kaydetmek için. Android'de sistem fotoğraf seçicisi kullanılır: uygulama yalnız sizin seçtiğiniz görüntüleri görür, tüm fotoğraflarınıza erişim istemez.</li>
-<li><strong>İnternet:</strong> yalnız abonelik işlemleri ve bağlantıları açmak için.</li>
+<li><strong>İnternet:</strong> abonelik işlemleri (RevenueCat ve mağaza), bağlantıları açmak, Android'de ML Kit metin tanıma/tarayıcı bileşenlerinin ve cihaz içi yapay zekâ modelinin Google Play hizmetleri üzerinden indirilmesi ve Google'ın bu bileşenler için topladığı teknik ölçümler (aşağıda). Belgelerinizin içeriği gönderilmez.</li>
+<li><strong>Face ID / parmak izi / cihaz kilidi:</strong> yalnız gizli klasörün PIN'ini sıfırlarken kimliğinizi doğrulamak için; biyometrik veri uygulamaya gelmez.</li>
 </ul>
 <h2>3. PIN ile gizli klasör</h2>
 <p>PIN'iniz düz metin olarak saklanmaz: tuzlu ve tekrarlanmış bir özeti (SHA-256), cihazın güvenli anahtar deposunda (iOS Anahtar Zinciri, Android Keystore) bu cihaza bağlı olarak tutulur. Arka arkaya hatalı denemelerde bekleme süresi uygulanır. Uygulama arka plana geçtiğinde gizli klasör yeniden kilitlenir; gizli içerik ekrandayken Android'de ekran görüntüsü ve son uygulamalar önizlemesi engellenir. PIN'i unutursanız veya PIN kaydı okunamazsa (ör. yedekten geri yükleme), yeni PIN ancak telefonunuzun kendi kilidiyle (yüz, parmak izi veya cihaz şifresi) kimliğiniz doğrulandıktan sonra belirlenebilir. PIN belgeleri uygulama içinde <strong>gizler</strong>; belgeleri şifreleyen bir kasa değildir. Belgeler cihaz yedeğine girdiği için, yedeği geri yükleyen ve o telefonun kilidini açabilen kişi PIN'i sıfırlayıp gizli belgeleri görebilir; “gizli” işareti yedeğe karşı bir koruma değildir.</p>

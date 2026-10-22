@@ -34,7 +34,8 @@ li{margin:4px 0}
 <ul>
 <li><strong>Camera:</strong> to scan documents and QR/barcodes. Images stay on the device.</li>
 <li><strong>Photos:</strong> to pick images to scan and, when you ask, to save pages to Photos. On Android the system photo picker is used: the app sees only the images you pick and never asks for access to all your photos.</li>
-<li><strong>Internet:</strong> only for subscriptions and opening links.</li>
+<li><strong>Internet:</strong> subscriptions (RevenueCat and the store), opening links, and on Android downloading the ML Kit text recognition/scanner components and the on-device AI model through Google Play services, plus the technical metrics Google collects for those components (below). The content of your documents is not sent.</li>
+<li><strong>Face ID / fingerprint / device lock:</strong> only to confirm it's you when resetting the hidden folder's PIN; no biometric data reaches the app.</li>
 </ul>
 <h2>3. PIN-protected hidden folder</h2>
 <p>Your PIN is never stored in plain text: a salted, iterated SHA-256 digest is kept in the device's secure key store (iOS Keychain, Android Keystore), bound to this device. Repeated wrong attempts trigger a waiting period. The hidden folder locks again when the app goes to the background, and while hidden content is on screen Android blocks screenshots and the recent-apps preview. If you forget the PIN or its record cannot be read (e.g. after restoring a backup), a new PIN can only be set after you confirm it's you with your phone's own lock (face, fingerprint or device passcode). The PIN <strong>hides</strong> documents inside the app; it is not an encrypted vault. Because documents are included in device backups, someone who restores the backup and can unlock that phone can reset the PIN and see hidden documents; “hidden” is not protection against backups.</p>
