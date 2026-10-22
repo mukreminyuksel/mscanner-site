@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mScanner Gizlilik Politikası</title>
+<style>
+:root{--bg:#F4F9FF;--fg:#0F172A;--muted:#475569;--accent:#0284C7;--card:#fff;--line:#DBEAFE}
+@media (prefers-color-scheme: dark){:root{--bg:#0B1220;--fg:#E2E8F0;--muted:#94A3B8;--accent:#38BDF8;--card:#111A2E;--line:#1E2A44}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+nav a{color:var(--accent);margin-right:14px;text-decoration:none;font-weight:600}
+h1{font-size:28px;margin:18px 0 6px}h2{font-size:20px;margin-top:28px}
+a{color:var(--accent)}code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:0 4px}
+li{margin:4px 0}
+</style></head>
+<body><main><nav><a href="index.html">mScanner</a><a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a><a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a></nav>
+<h1>mScanner Gizlilik Politikası</h1>
+<p>Son güncelleme: 22 Ekim 2026 · Uygulama sürümü 2.17 ve sonrası</p>
+<p>mScanner (“uygulama”), <code>[Geliştirici adı]</code> tarafından geliştirilen bir belge tarayıcıdır. Bu politika, uygulamanın hangi bilgileri nasıl işlediğini açıklar.</p>
+<h2>Kısaca</h2>
+<ul>
+<li>Belgeleriniz <strong>cihazınızda</strong> işlenir ve saklanır. Bizim sunucumuz yoktur; belgeleriniz bize gönderilmez.</li>
+<li>Hesap açmanız gerekmez. Reklam, reklam takibi ve analitik aracı <strong>yoktur</strong>.</li>
+<li>Uygulama belgelerinizi hiçbir yapay zekâ sunucusuna kendisi göndermez. Yapay zekâ komutları için, isterseniz metni telefonunuzdaki bir yapay zekâ uygulamasına <strong>siz</strong> aktarırsınız.</li>
+<li>Abonelik satın alırsanız, ödeme Apple veya Google tarafından; abonelik durumu RevenueCat tarafından işlenir.</li>
+</ul>
+<h2>1. Belgeler ve tarama</h2>
+<p>Kamera ile çektiğiniz veya içe aktardığınız sayfalar, kırpma/filtre sonuçları, PDF'ler, belge notları, metin okuma (OCR) sonuçları, imza ve filigranlar uygulamanın cihazdaki özel klasöründe saklanır. Kenar algılama, filtreler ve metin okuma cihaz üzerinde çalışır.</p>
+<ul>
+<li><strong>Android:</strong> metin okuma ve “Cihaz AI Tarayıcı”, Google ML Kit / Google Play hizmetlerini kullanır. Google, bu hizmetlerin çalışması için cihaz modeli, işletim sistemi sürümü, uygulama paket adı, kurulum başına tanımlayıcı ve performans/hata ölçümleri gibi teknik bilgileri toplayabilir (<a href="https://developers.google.com/ml-kit/android-data-disclosure">Google ML Kit veri açıklaması</a>). Belge görüntüleriniz ve metniniz bu ölçümlerin parçası değildir.</li>
+<li><strong>iOS:</strong> metin okuma ve belge tarayıcı Apple'ın cihaz üstü Vision/VisionKit çerçevelerini kullanır.</li>
+<li>Belgeler uygulama tarafından ayrıca şifrelenmez; cihazınızın kendi şifrelemesi ve kilit ekranı geçerlidir. Cihazınızın yedeklemesi (iCloud / Google) açıksa belgeler dahil uygulama verileri işletim sisteminin yedeğine dahil olabilir; PIN özeti (güvenli anahtar deposu) yedeğe <strong>girmez</strong>.</li>
+<li>Belgeyi siz paylaştığınızda, yazdırdığınızda veya Fotoğraflar'a/bir klasöre kaydettiğinizde, seçtiğiniz hedefe gider.</li>
+</ul>
+<h2>2. İzinler</h2>
+<ul>
+<li><strong>Kamera:</strong> belge ve QR/barkod taramak için. Görüntüler yalnız cihazda saklanır.</li>
+<li><strong>Fotoğraflar:</strong> taranacak görüntüleri seçmek ve sizin isteğinizle sayfaları Fotoğraflar'a kaydetmek için. Android'de sistem fotoğraf seçicisi kullanılır: uygulama yalnız sizin seçtiğiniz görüntüleri görür, tüm fotoğraflarınıza erişim istemez.</li>
+<li><strong>İnternet:</strong> yalnız abonelik işlemleri ve bağlantıları açmak için.</li>
+</ul>
+<h2>3. PIN ile gizli klasör</h2>
+<p>PIN'iniz düz metin olarak saklanmaz: tuzlu ve tekrarlanmış bir özeti (SHA-256), cihazın güvenli anahtar deposunda (iOS Anahtar Zinciri, Android Keystore) bu cihaza bağlı olarak tutulur. Arka arkaya hatalı denemelerde bekleme süresi uygulanır. Uygulama arka plana geçtiğinde gizli klasör yeniden kilitlenir; gizli içerik ekrandayken Android'de ekran görüntüsü ve son uygulamalar önizlemesi engellenir. PIN'i unutursanız veya PIN kaydı okunamazsa (ör. yedekten geri yükleme), yeni PIN ancak telefonunuzun kendi kilidiyle (yüz, parmak izi veya cihaz şifresi) kimliğiniz doğrulandıktan sonra belirlenebilir. PIN belgeleri uygulama içinde <strong>gizler</strong>; belgeleri şifreleyen bir kasa değildir. Belgeler cihaz yedeğine girdiği için, yedeği geri yükleyen ve o telefonun kilidini açabilen kişi PIN'i sıfırlayıp gizli belgeleri görebilir; “gizli” işareti yedeğe karşı bir koruma değildir.</p>
+<h2>4. Yapay zekâ komutları (telefonunuzdaki uygulamayla)</h2>
+<p>“OCR &amp; Mobil AI” ekranında belge metni ve seçtiğiniz görev için hazırlanan komut panoya kopyalanır ve telefonunuzda yüklü olan, sizin seçtiğiniz yapay zekâ uygulaması (ör. ChatGPT, Gemini, Claude) açılır. Yapıştırıp göndermek ve yanıtı geri getirmek sizin elinizdedir; o uygulamanın kendi koşulları ve gizlilik politikası geçerlidir. mScanner'ın kendisi hiçbir yapay zekâ sunucusuna veri göndermez ve API anahtarı istemez. Eski bir sürümde girilmiş bir API anahtarı veya izin kaydı varsa uygulama açılışında cihazdan silinir.</p>
+<p><strong>Telefonun kendi yapay zekâsı:</strong> Telefonunuzda cihaz içi bir dil modeli varsa (iOS 26 ve sonrasında Apple Intelligence; bazı Android telefonlarda Google'ın AICore hizmetiyle Gemini Nano), komut bu model üzerinde <strong>telefonda</strong> çalıştırılır ve metin telefondan çıkmaz. iOS'ta yalnız cihaz içi model kullanılır, Apple'ın sunucu tarafı (Private Cloud Compute) kullanılmaz. Android'de model ilk kullanımda sistem tarafından indirilebilir ve Google, bu hizmetin çalışması için teknik ölçümler toplayabilir (<a href="https://developers.google.com/ml-kit/android-data-disclosure">Google ML Kit veri açıklaması</a>).</p>
+<h2>5. Abonelik ve satın almalar</h2>
+<p>mScanner Pro aboneliğini satın alırsanız ödeme Apple App Store veya Google Play tarafından işlenir; kart bilgileriniz bize ulaşmaz. Abonelik durumunu doğrulamak için RevenueCat, Inc. hizmetini kullanırız. RevenueCat, otomatik oluşturulan anonim bir uygulama kullanıcı kimliği ile satın alma geçmişini (ürün, işlem, tarih, mağaza) işler (<a href="https://www.revenuecat.com/privacy">RevenueCat gizlilik politikası</a>). Adınızı veya e-posta adresinizi istemeyiz.</p>
+<h2>6. Paylaşmadıklarımız</h2>
+<p>Kişisel verilerinizi satmayız; reklam veya profil çıkarma amacıyla kullanmayız. Yukarıda sayılan hizmet sağlayıcılar dışında üçüncü taraflarla paylaşmayız; yasal zorunluluk hâlleri saklıdır (bizim sunucumuzda belge bulunmadığından vereceğimiz belge içeriği de yoktur).</p>
+<h2>7. Saklama ve silme</h2>
+<ul>
+<li>Bir belgeyi uygulamada silebilir veya uygulamayı kaldırarak cihazdaki tüm uygulama verilerini silebilirsiniz.</li>
+<li>Abonelik: mağaza hesap ayarlarınızdan yönetilir veya iptal edilir. RevenueCat'teki satın alma kaydının silinmesini <code>[İletişim e-postası]</code> adresinden isteyebilirsiniz.</li>
+</ul>
+<h2>8. Çocuklar</h2>
+<p>Uygulama 13 yaşından küçük çocuklara yönelik değildir ve bilerek çocuklardan kişisel veri toplamaz.</p>
+<h2>9. Haklarınız</h2>
+<p>Bulunduğunuz ülkenin mevzuatına göre (ör. KVKK, GDPR) verilerinize erişme, düzeltme, silme ve itiraz haklarınız vardır. Belgeleriniz yalnız sizin cihazınızda olduğu için bu hakların çoğunu doğrudan uygulamada kullanabilirsiniz; diğer talepler için <code>[İletişim e-postası]</code>.</p>
+<h2>10. Değişiklikler ve iletişim</h2>
+<p>Bu politika değişirse güncel sürümü bu adreste yayımlarız ve “Son güncelleme” tarihini değiştiririz. Sorularınız için: <code>[İletişim e-postası]</code>, <code>[Geliştirici adı]</code>, <code>[Adres/ülke]</code>.</p>
+</main></body></html>

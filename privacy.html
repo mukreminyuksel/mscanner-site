@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mScanner Privacy Policy</title>
+<style>
+:root{--bg:#F4F9FF;--fg:#0F172A;--muted:#475569;--accent:#0284C7;--card:#fff;--line:#DBEAFE}
+@media (prefers-color-scheme: dark){:root{--bg:#0B1220;--fg:#E2E8F0;--muted:#94A3B8;--accent:#38BDF8;--card:#111A2E;--line:#1E2A44}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+nav a{color:var(--accent);margin-right:14px;text-decoration:none;font-weight:600}
+h1{font-size:28px;margin:18px 0 6px}h2{font-size:20px;margin-top:28px}
+a{color:var(--accent)}code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:0 4px}
+li{margin:4px 0}
+</style></head>
+<body><main><nav><a href="index.html">mScanner</a><a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a><a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a></nav>
+<h1>mScanner Privacy Policy</h1>
+<p>Last updated: 22 October 2026 · App version 2.17 and later</p>
+<p>mScanner (“the app”) is a document scanner developed by <code>[Developer name]</code>. This policy explains what information the app processes and how.</p>
+<h2>In short</h2>
+<ul>
+<li>Your documents are processed and stored <strong>on your device</strong>. We run no server; your documents are never sent to us.</li>
+<li>No account is needed. There are <strong>no</strong> ads, ad tracking or analytics tools.</li>
+<li>The app itself never sends your documents to any AI server. For AI prompts you can, if you wish, hand the text to an AI app installed on your phone <strong>yourself</strong>.</li>
+<li>If you buy a subscription, payment is handled by Apple or Google and subscription status by RevenueCat.</li>
+</ul>
+<h2>1. Documents and scanning</h2>
+<p>Pages you capture or import, crop/filter results, PDFs, notes, text recognition (OCR) results, signatures and watermarks are stored in the app's private folder on your device. Edge detection, filters and text recognition run on the device.</p>
+<ul>
+<li><strong>Android:</strong> text recognition and the “Device AI scanner” use Google ML Kit / Google Play services. To operate these, Google may collect technical information such as device model, OS version, app package name, a per-installation identifier and performance/error metrics (<a href="https://developers.google.com/ml-kit/android-data-disclosure">Google ML Kit data disclosure</a>). Your document images and text are not part of these metrics.</li>
+<li><strong>iOS:</strong> text recognition and the document scanner use Apple's on-device Vision/VisionKit frameworks.</li>
+<li>The app does not add its own encryption to documents; your device's encryption and lock screen apply. If device backup (iCloud / Google) is on, app data including documents may be included in the operating system's backup; the PIN digest (secure key store) is <strong>not</strong> backed up.</li>
+<li>When you share, print or save a document to Photos or a folder, it goes to the destination you choose.</li>
+</ul>
+<h2>2. Permissions</h2>
+<ul>
+<li><strong>Camera:</strong> to scan documents and QR/barcodes. Images stay on the device.</li>
+<li><strong>Photos:</strong> to pick images to scan and, when you ask, to save pages to Photos. On Android the system photo picker is used: the app sees only the images you pick and never asks for access to all your photos.</li>
+<li><strong>Internet:</strong> only for subscriptions and opening links.</li>
+</ul>
+<h2>3. PIN-protected hidden folder</h2>
+<p>Your PIN is never stored in plain text: a salted, iterated SHA-256 digest is kept in the device's secure key store (iOS Keychain, Android Keystore), bound to this device. Repeated wrong attempts trigger a waiting period. The hidden folder locks again when the app goes to the background, and while hidden content is on screen Android blocks screenshots and the recent-apps preview. If you forget the PIN or its record cannot be read (e.g. after restoring a backup), a new PIN can only be set after you confirm it's you with your phone's own lock (face, fingerprint or device passcode). The PIN <strong>hides</strong> documents inside the app; it is not an encrypted vault. Because documents are included in device backups, someone who restores the backup and can unlock that phone can reset the PIN and see hidden documents; “hidden” is not protection against backups.</p>
+<h2>4. AI prompts (with the app on your phone)</h2>
+<p>On the “OCR &amp; Mobile AI” screen the document text and a prompt prepared for the task you choose are copied to the clipboard, and the AI app installed on your phone that you pick (e.g. ChatGPT, Gemini, Claude) is opened. Pasting, sending and bringing the answer back is up to you; that app's own terms and privacy policy apply. mScanner itself sends no data to any AI server and asks for no API key. Any API key or permission stored by an older version is deleted from the device at launch.</p>
+<p><strong>The phone's own AI:</strong> If your phone has an on-device language model (Apple Intelligence on iOS 26 and later; Gemini Nano through Google's AICore service on some Android phones), the prompt runs on that model <strong>on the phone</strong> and the text does not leave it. On iOS only the on-device model is used, never Apple's server side (Private Cloud Compute). On Android the model may be downloaded by the system on first use, and Google may collect technical metrics to operate the service (<a href="https://developers.google.com/ml-kit/android-data-disclosure">Google ML Kit data disclosure</a>).</p>
+<h2>5. Subscriptions and purchases</h2>
+<p>If you buy mScanner Pro, payment is processed by the Apple App Store or Google Play; your card details never reach us. We use RevenueCat, Inc. to verify subscription status. RevenueCat processes an automatically generated anonymous app user ID and purchase history (product, transaction, date, store) (<a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>). We do not ask for your name or email.</p>
+<h2>6. What we do not share</h2>
+<p>We do not sell your personal data or use it for advertising or profiling. We do not share it with third parties other than the service providers named above, except where the law requires (and since no documents are on our servers, we hold no document content to disclose).</p>
+<h2>7. Retention and deletion</h2>
+<ul>
+<li>Delete a document in the app, or uninstall the app to remove all app data from the device.</li>
+<li>Subscription: manage or cancel in your store account settings. You can ask for RevenueCat's purchase record to be deleted at <code>[Contact email]</code>.</li>
+</ul>
+<h2>8. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect personal data from children.</p>
+<h2>9. Your rights</h2>
+<p>Depending on where you live (e.g. GDPR), you have rights to access, correct, delete and object. Because your documents are only on your device, you can exercise most of these directly in the app; for anything else contact <code>[Contact email]</code>.</p>
+<h2>10. Changes and contact</h2>
+<p>If this policy changes we publish the current version at this address and update the “Last updated” date. Questions: <code>[Contact email]</code>, <code>[Developer name]</code>, <code>[Address/country]</code>.</p>
+</main></body></html>
