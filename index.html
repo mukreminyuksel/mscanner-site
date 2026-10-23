@@ -68,6 +68,26 @@ a{color:inherit}
 .badges-center{justify-content:center}
 .btn small{font-family:Nunito,sans-serif;font-size:13px;letter-spacing:0;font-weight:800;opacity:.85}
 
+.devsw{display:inline-flex;gap:0;margin:6px auto 26px;border:4px solid var(--ink);border-radius:999px;background:var(--white);box-shadow:4px 4px 0 var(--ink);overflow:hidden}
+.devsw button{font-family:var(--comic);font-size:22px;letter-spacing:.06em;border:0;background:transparent;color:var(--ink);padding:8px 22px;cursor:pointer}
+.devsw button[aria-pressed="true"]{background:var(--ink);color:var(--mustard)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.howto[data-dev="tablet"] .steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 34px;max-width:980px;margin:0 auto}
+.howto[data-dev="phone"] .tb,.howto[data-dev="tablet"] .ph{display:none}
+.step{margin:0;text-align:center}
+.step .dev{margin:0 auto 14px;border:5px solid var(--ink);background:var(--ink);box-shadow:7px 7px 0 var(--ink)}
+.step .ph.dev{width:min(100%,220px);border-radius:30px;padding:8px}
+.step .tb.dev{width:min(100%,420px);border-radius:26px;padding:12px}
+.step .dev img{width:100%;height:auto;border-radius:20px;background:#fff}
+.step .tb.dev img{border-radius:12px}
+.step:nth-child(odd) .dev{transform:rotate(-1.5deg)}.step:nth-child(even) .dev{transform:rotate(1.5deg)}
+.step h3{font-family:var(--comic);font-weight:400;font-size:26px;letter-spacing:.04em;margin:6px 0 4px}
+.step h3 i{font-style:normal;display:inline-grid;place-items:center;width:38px;height:38px;margin-inline-end:8px;border:3px solid var(--ink);border-radius:50%;background:var(--mustard);font-size:22px}
+.step p{margin:0 auto;max-width:300px;font-weight:800}
+.howto .note{text-align:center;font-size:14px;font-weight:800;opacity:.75;margin-top:22px}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.howto[data-dev="tablet"] .steps{grid-template-columns:minmax(0,1fr)}.step h3{font-size:20px}.step h3 i{width:30px;height:30px;font-size:18px}.steps{gap:18px 14px}}
+
 /* top bar */
 .top{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:4px solid var(--ink)}
 .top .wrap{display:flex;align-items:center;gap:14px;height:66px}
@@ -256,20 +276,21 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
         <span data-i18n="k006">Kâğıt yığınlarına<br><span class="line2">elveda!</span></span>
       </h1>
       <p class="lead">
-        <span data-i18n="k007">Telefonun artık bir ofis tarayıcısı. <b>Tara, kırp, düzelt, PDF yap</b> — fişler, faturalar, sözleşmeler, ders notları, kitap sayfaları. Hesap yok, reklam yok, <b>belgelerin telefonundan çıkmaz.</b></span>
+        <span data-i18n="k007">Telefonun artık bir ofis tarayıcısı — tabletin de! <b>Tara, kırp, düzelt, PDF yap</b> — fişler, faturalar, sözleşmeler, ders notları, kitap sayfaları. Hesap yok, reklam yok; ister telefonunda kullan ister tabletinde, <b>belgelerin cihazından çıkmaz.</b></span>
       </p>
       <div class="cta">
         <div class="badges">
           <a class="badge" href="#nasil" data-store="play"><svg width="30" height="32" viewBox="0 0 26 28" aria-hidden="true"><path d="M2 1.5 15 14 2 26.5c-.6-.3-1-1-1-1.8V3.3c0-.8.4-1.5 1-1.8Z" fill="#7FE0C9"/><path d="m19.3 9.8-3.4 3.3L19.3 16.5l4.1-2.3c1.2-.7 1.2-2.4 0-3.1Z" fill="#FFD84A"/><path d="M15 14 2 1.5c.4-.2 1-.2 1.5.1l15.8 8.2Z" fill="#5BC0F8"/><path d="M15 14 2 26.5c.4.2 1 .2 1.5-.1l15.8-8.2Z" fill="#FF8B94"/></svg><span><small data-i18n="k008">Çok yakında</small><b>Google Play</b></span></a>
           <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="32" viewBox="0 0 24 28" aria-hidden="true" fill="#fff"><path d="M16.6.2c.2 1.6-.4 3.1-1.3 4.2-.9 1.1-2.4 1.9-3.8 1.8-.2-1.5.5-3.1 1.4-4.1C13.9 1 15.4.3 16.6.2Z"/><path d="M20.1 15c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.2-2.3-1.8-.2-3.5 1-4.4 1-.9 0-2.3-1-3.8-1-1.9 0-3.7 1.1-4.7 2.9-2 3.5-.5 8.7 1.4 11.6 1 1.4 2.1 3 3.6 2.9 1.4-.1 2-.9 3.7-.9s2.2.9 3.7.9c1.5 0 2.5-1.4 3.5-2.8 1.1-1.6 1.5-3.2 1.6-3.3-.1 0-2.9-1.1-2.9-4.5Z"/></svg><span><small data-i18n="k123">Çok yakında</small><b>App Store</b></span></a>
         </div>
-        <a class="btn btn-cream" href="#nasil"><span data-i18n="k009">Nasıl çalışır?</span></a>
+        <a class="btn btn-cream" href="#adim"><span data-i18n="k009">Nasıl çalışır?</span></a>
       </div>
       <div class="trust">
         <span data-i18n="k010">34 dil</span>
         <span data-i18n="k011">İnternetsiz tarama</span>
         <span data-i18n="k012">Hesap gerekmez</span>
         <span data-i18n="k013">Sıfır reklam</span>
+        <span data-i18n="k125">Telefon + tablet</span>
       </div>
     </div>
 
@@ -424,7 +445,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       <div class="use reveal" style="--c:#E63946"><div class="ub"><span data-i18n="k036">Sözleşmeyi yazıcısız imzala, geri gönder!</span></div><p><span data-i18n="k037">✍️ İmzanı ve kaşeni ekle, PDF'i e-postayla ya da mesajla gönder. (Pro)</span></p></div>
       <div class="use reveal" style="--c:#5BC0EB"><div class="ub"><span data-i18n="k038">Kimliğin ön ve arka yüzü tek sayfada!</span></div><p><span data-i18n="k039">🪪 Kimlik 2'si 1 arada: başvurular ve resmî işler için hazır A4.</span></p></div>
     </div>
-    <p class="fine"><span data-i18n="k040">GoodNotes ve Notability, sahiplerinin ticari markalarıdır; mScanner bu uygulamalarla bağlantılı değildir. PDF, telefonunun Paylaş menüsüyle yüklü olan uygulamaya gönderilir.</span></p>
+    <p class="fine"><span data-i18n="k040">GoodNotes ve Notability, sahiplerinin ticari markalarıdır; mScanner bu uygulamalarla bağlantılı değildir. PDF, cihazının Paylaş menüsüyle yüklü olan uygulamaya gönderilir.</span></p>
   </div>
 </section>
 
@@ -466,6 +487,45 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
   </div>
 </section>
 
+<!-- ============ HOW-TO: PHONE + TABLET ============ -->
+<section id="adim" class="howto on-paper dots" data-dev="phone">
+  <div class="wrap">
+    <div class="title reveal">
+      <h2><span data-i18n="k134">Adım adım: telefonda da tablette de</span></h2>
+      <p><span data-i18n="k135">Aynı uygulama, aynı dört adım. Büyük ekranda daha da rahat.</span></p>
+    </div>
+    <div style="text-align:center">
+      <div class="devsw" role="group" aria-label="Telefon / Tablet">
+        <button type="button" data-dev="phone" aria-pressed="true"><span data-i18n="k136">Telefon</span></button>
+        <button type="button" data-dev="tablet" aria-pressed="false"><span data-i18n="k137">Tablet</span></button>
+      </div>
+    </div>
+    <div class="steps">
+      <figure class="step reveal">
+        <div class="ph dev"><img loading="lazy" src="img/adim-telefon-1.webp" width="400" height="870" alt="Telefon 1"></div>
+        <div class="tb dev"><img loading="lazy" src="img/adim-tablet-1.webp" width="600" height="800" alt="Tablet 1"></div>
+        <figcaption><h3><i>1</i><span data-i18n="k126">Çek ya da seç</span></h3><p><span data-i18n="k127">Belgeyi kamerayla çek ya da galeriden seç.</span></p></figcaption>
+      </figure>
+      <figure class="step reveal">
+        <div class="ph dev"><img loading="lazy" src="img/adim-telefon-2.webp" width="400" height="870" alt="Telefon 2"></div>
+        <div class="tb dev"><img loading="lazy" src="img/adim-tablet-2.webp" width="600" height="800" alt="Tablet 2"></div>
+        <figcaption><h3><i>2</i><span data-i18n="k128">Köşeler hazır</span></h3><p><span data-i18n="k129">Kenarlar kendiliğinden bulunur; gerekirse köşeyi sürükle.</span></p></figcaption>
+      </figure>
+      <figure class="step reveal">
+        <div class="ph dev"><img loading="lazy" src="img/adim-telefon-3.webp" width="400" height="870" alt="Telefon 3"></div>
+        <div class="tb dev"><img loading="lazy" src="img/adim-tablet-3.webp" width="600" height="800" alt="Tablet 3"></div>
+        <figcaption><h3><i>3</i><span data-i18n="k130">Filtreni seç</span></h3><p><span data-i18n="k131">Beyaz zemin, siyah-beyaz, gri ton… tek dokunuş.</span></p></figcaption>
+      </figure>
+      <figure class="step reveal">
+        <div class="ph dev"><img loading="lazy" src="img/adim-telefon-4.webp" width="400" height="870" alt="Telefon 4"></div>
+        <div class="tb dev"><img loading="lazy" src="img/adim-tablet-4.webp" width="600" height="800" alt="Tablet 4"></div>
+        <figcaption><h3><i>4</i><span data-i18n="k132">PDF yap, paylaş</span></h3><p><span data-i18n="k133">Kâğıt boyutunu seç; kaydet, yazdır ya da paylaş.</span></p></figcaption>
+      </figure>
+    </div>
+    <p class="note"><span data-i18n="k138">Gerçek uygulama ekranları (iPhone ve iPad simülatörü). Android telefon ve tabletlerde de aynı adımlar.</span></p>
+  </div>
+</section>
+
 <!-- ============ PRIVACY ============ -->
 <section class="privacy dots-yellow">
   <div class="wrap">
@@ -475,7 +535,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
     </div>
     <div class="panel reveal">
       <ul>
-        <li><b>1</b><span><span data-i18n="k077">Belgeler, PDF'ler ve tanınan metinler <u>yalnızca telefonunda</u>.</span></span></li>
+        <li><b>1</b><span><span data-i18n="k077">Belgeler, PDF'ler ve tanınan metinler <u>yalnızca telefonunda ya da tabletinde</u>.</span></span></li>
         <li><b>2</b><span><span data-i18n="k078">Hesap yok, e-posta yok, şifre yok.</span></span></li>
         <li><b>3</b><span><span data-i18n="k079">Reklam yok, izleyici yok.</span></span></li>
         <li><b>4</b><span><span data-i18n="k080">Tarama ve metin tanıma internetsiz çalışır.</span></span></li>
@@ -552,7 +612,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
     <div class="title reveal"><h2><span data-i18n="k108">Sıkça sorulanlar</span></h2></div>
     <div class="faq">
       <details class="panel"><summary><span data-i18n="k109">Hesap açmam gerekiyor mu?</span></summary><p><span data-i18n="k110">Hayır. Uygulamayı aç, taramaya başla.</span></p></details>
-      <details class="panel"><summary><span data-i18n="k111">Belgelerim bir sunucuya gidiyor mu?</span></summary><p><span data-i18n="k112">Hayır. Taramalar, PDF'ler ve tanınan metinler telefonunda kalır. Yalnız abonelik bilgisi Google Play ve satın alma doğrulayıcımız RevenueCat üzerinden işlenir. Ayrıntılar <a href="gizlilik.html">gizlilik politikasında</a>.</span></p></details>
+      <details class="panel"><summary><span data-i18n="k111">Belgelerim bir sunucuya gidiyor mu?</span></summary><p><span data-i18n="k112">Hayır. Taramalar, PDF'ler ve tanınan metinler telefonunda ya da tabletinde kalır. Yalnız abonelik bilgisi Google Play ve satın alma doğrulayıcımız RevenueCat üzerinden işlenir. Ayrıntılar <a href="gizlilik.html">gizlilik politikasında</a>.</span></p></details>
       <details class="panel"><summary><span data-i18n="k113">İnternet gerekli mi?</span></summary><p><span data-i18n="k114">Tarama, filtreler, PDF ve metin tanıma internetsiz çalışır. Pro satın alırken ve aboneliği doğrularken internet gerekir.</span></p></details>
       <details class="panel"><summary><span data-i18n="k115">Aboneliği nasıl iptal ederim?</span></summary><p><span data-i18n="k116">Google Play › Profil › Ödemeler ve abonelikler › Abonelikler › mScanner Pro › İptal. Belgelerin silinmez.</span></p></details>
       <details class="panel"><summary><span data-i18n="k117">iPhone sürümü var mı?</span></summary><p><span data-i18n="k118">Hazırlanıyor! App Store'a çok yakında.</span></p></details>
@@ -615,6 +675,12 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
   const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 }) : null;
   document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
 })();
+</script>
+<script>
+document.querySelectorAll('.devsw button').forEach(b => b.addEventListener('click', () => {
+  const sec = b.closest('.howto'); sec.dataset.dev = b.dataset.dev;
+  sec.querySelectorAll('.devsw button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+}));
 </script>
 </body>
 </html>
