@@ -1,0 +1,3 @@
+Bangers (Vernon Adams) ve Nunito (Vernon Adams, Cyreal, Jacques Le Bailly) — SIL Open Font License 1.1.
+Kaynak: @fontsource/bangers@5.2.8, @fontsource/nunito@5.2.7 (npm), Google Fonts projesi.
+Lisans metni: https://openfontlicense.org
