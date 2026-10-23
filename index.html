@@ -121,6 +121,14 @@ section{padding:74px 0}
 .fx{position:absolute;font-family:Bangers,Impact,sans-serif;font-size:44px;color:var(--mustard);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;transform:rotate(-12deg);z-index:3;text-shadow:3px 3px 0 var(--ink)}
 @media(max-width:860px){.strip{grid-template-columns:minmax(0,1fr)}.frame{min-height:380px}}
 
+/* use cases */
+.uses{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 22px}
+.use{position:relative}
+.ub{position:relative;background:var(--c);border:4px solid var(--ink);border-radius:26px;box-shadow:5px 5px 0 var(--ink);padding:18px 18px;font-family:Bangers,Impact,sans-serif;font-size:clamp(22px,2.3vw,27px);line-height:1.08;letter-spacing:.03em;color:var(--ink);min-height:118px;display:flex;align-items:center}
+.ub::after{content:"";position:absolute;bottom:-18px;left:38px;width:28px;height:28px;background:var(--c);border-right:4px solid var(--ink);border-bottom:4px solid var(--ink);transform:rotate(45deg)}
+.use:nth-child(odd) .ub{transform:rotate(-1deg)}.use:nth-child(even) .ub{transform:rotate(1deg)}
+.use p{margin:24px 6px 0;font-weight:800;font-size:16px}
+@media(max-width:900px){.uses{grid-template-columns:minmax(0,1fr)}}
 /* features */
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:20px}
 .feat{padding:22px 20px 20px;position:relative;transition:transform .18s}
@@ -200,6 +208,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
   <div class="wrap">
     <a class="brand" href="#"><img src="img/icon.webp" alt="" width="40" height="40"><span>mScanner</span></a>
     <nav aria-label="Menü">
+      <a href="#kullanim"><span class="tr">Kullanım</span><span class="en">Uses</span></a>
       <a href="#ozellikler"><span class="tr">Özellikler</span><span class="en">Features</span></a>
       <a href="#fiyat"><span class="tr">Fiyat</span><span class="en">Pricing</span></a>
       <a href="#sss"><span class="tr">SSS</span><span class="en">FAQ</span></a>
@@ -376,6 +385,25 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ============ USE CASES ============ -->
+<section id="kullanim" class="on-paper dots">
+  <div class="wrap">
+    <div class="title reveal">
+      <h2><span class="tr">Okulda, ofiste, evde: her yerde!</span><span class="en">At school, at work, at home!</span></h2>
+      <p><span class="tr">mScanner'ı en çok bunun için seviyorlar.</span><span class="en">Here's what people love it for.</span></p>
+    </div>
+    <div class="uses">
+      <div class="use reveal" style="--c:#5BC0EB"><div class="ub"><span class="tr">Elle yazılmış ders notlarını tara, GoodNotes, Notability gibi not uygulamana gönder!</span><span class="en">Scan your handwritten notes and send them to note apps like GoodNotes or Notability!</span></div><p><span class="tr">✏️ Defterini tara, PDF yap, Paylaş menüsüyle not uygulamanda aç; üzerine yazmaya devam et.</span><span class="en">✏️ Scan your notebook, make a PDF, open it in your note app from the Share menu and keep writing on it.</span></p></div>
+      <div class="use reveal" style="--c:#F4B42C"><div class="ub"><span class="tr">Tahtadaki notların fotoğrafını çek, anında PDF'e dönüştür!</span><span class="en">Snap the whiteboard, turn it into a PDF in a flash!</span></div><p><span class="tr">🧑‍🏫 Eğik çekim mi? Sorun değil: köşeleri bulur, düzleştirir, yazıyı netleştirir.</span><span class="en">🧑‍🏫 Shot at an angle? No problem: it finds the corners, straightens and sharpens the writing.</span></p></div>
+      <div class="use reveal" style="--c:#F7A1B5"><div class="ub"><span class="tr">Ders notlarını kitap haline getir!</span><span class="en">Turn your class notes into a book!</span></div><p><span class="tr">📚 Haftalar boyunca taradığın sayfaları sırala, tek PDF'de birleştir, sınav öncesi cebinde olsun.</span><span class="en">📚 Order weeks of scanned pages, merge them into one PDF and carry it to every exam.</span></p></div>
+      <div class="use reveal" style="--c:#1F9E8F"><div class="ub"><span class="tr">Fişleri ve faturaları saniyede arşivle!</span><span class="en">Archive receipts and invoices in seconds!</span></div><p><span class="tr">🧾 Masraf raporu, muhasebe, garanti belgesi… kategorilere ayır, aradığını anında bul.</span><span class="en">🧾 Expense reports, bookkeeping, warranties… sort them into categories and find them instantly.</span></p></div>
+      <div class="use reveal" style="--c:#E63946"><div class="ub"><span class="tr">Sözleşmeyi yazıcısız imzala, geri gönder!</span><span class="en">Sign that contract without a printer and send it back!</span></div><p><span class="tr">✍️ İmzanı ve kaşeni ekle, PDF'i e-postayla ya da mesajla gönder. (Pro)</span><span class="en">✍️ Add your signature and stamp, then send the PDF by e-mail or chat. (Pro)</span></p></div>
+      <div class="use reveal" style="--c:#5BC0EB"><div class="ub"><span class="tr">Kimliğin ön ve arka yüzü tek sayfada!</span><span class="en">Both sides of your ID on one page!</span></div><p><span class="tr">🪪 Kimlik 2'si 1 arada: başvurular ve resmî işler için hazır A4.</span><span class="en">🪪 ID 2-in-1: a ready A4 page for applications and paperwork.</span></p></div>
+    </div>
+    <p class="fine"><span class="tr">GoodNotes ve Notability, sahiplerinin ticari markalarıdır; mScanner bu uygulamalarla bağlantılı değildir. PDF, telefonunun Paylaş menüsüyle yüklü olan uygulamaya gönderilir.</span><span class="en">GoodNotes and Notability are trademarks of their respective owners; mScanner is not affiliated with them. PDFs are sent through your phone's Share menu to apps you have installed.</span></p>
   </div>
 </section>
 
