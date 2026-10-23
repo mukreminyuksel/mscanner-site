@@ -6,7 +6,7 @@
  "k005": "Mới toanh! Phép màu bỏ túi!",
  "k006": "Tạm biệt<br><span class=\"line2\">núi giấy tờ!</span>",
  "k007": "Điện thoại của bạn giờ là máy quét văn phòng. <b>Quét, cắt, làm nét và tạo PDF</b> — hóa đơn, biên lai, hợp đồng, vở ghi, trang sách. Không tài khoản, không quảng cáo, <b>tài liệu không bao giờ rời khỏi điện thoại.</b>",
- "k008": "Sắp có trên Google Play",
+ "k008": "Sắp ra mắt",
  "k009": "Hoạt động thế nào?",
  "k010": "34 ngôn ngữ",
  "k011": "Chạy ngoại tuyến",
@@ -119,12 +119,14 @@
  "k118": "Đang đến! Sắp có trên App Store.",
  "k119": "Tôi gặp sự cố — viết cho ai?",
  "k120": "Viết tới <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — mục Cài đặt › Viết cho chúng tôi trong ứng dụng cũng gửi về đó.",
- "k121": "Sắp có trên Google Play",
+ "k121": "Sắp ra mắt",
  "k122": "Nhân vật và hình vẽ là sáng tác riêng của mScanner.",
+ "k123": "Sắp ra mắt",
+ "k124": "Sắp ra mắt",
  "ticker": "<span>✦ QUÉT</span><span>✦ CẮT</span><span>✦ LÀM NÉT</span><span>✦ PDF</span><span>✦ CHIA SẺ</span><span>✦ OCR</span><span>✦ 34 NGÔN NGỮ</span><span>✦ KHÔNG QUẢNG CÁO</span><span>✦ QUÉT</span><span>✦ CẮT</span><span>✦ LÀM NÉT</span><span>✦ PDF</span><span>✦ CHIA SẺ</span><span>✦ OCR</span><span>✦ 34 NGÔN NGỮ</span><span>✦ KHÔNG QUẢNG CÁO</span>",
- "_store": {
-  "soon": "Sắp có trên Google Play",
-  "live": "Tải trên Google Play"
+ "_badge": {
+  "soon": "Sắp ra mắt",
+  "live": "Tải ngay"
  },
  "_meta": {
   "title": "mScanner — Máy quét thần kỳ trong túi bạn",

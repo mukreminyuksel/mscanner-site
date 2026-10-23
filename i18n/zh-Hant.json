@@ -6,7 +6,7 @@
  "k005": "全新登場！口袋裡的奇蹟！",
  "k006": "再見了，<br><span class=\"line2\">堆積如山的紙！</span>",
  "k007": "你的手機現在就是辦公室掃描器。<b>掃描、裁切、優化、製作 PDF</b>——收據、發票、合約、課堂筆記、書頁。不需帳號，沒有廣告，<b>文件從不離開你的手機。</b>",
- "k008": "即將登上 Google Play",
+ "k008": "即將推出",
  "k009": "如何使用？",
  "k010": "34 種語言",
  "k011": "離線可用",
@@ -119,12 +119,14 @@
  "k118": "正在路上！即將登上 App Store。",
  "k119": "遇到問題要聯絡誰？",
  "k120": "請寫信到 <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a>——App 內的「設定 › 聯絡我們」也會寄到這裡。",
- "k121": "即將登上 Google Play",
+ "k121": "即將推出",
  "k122": "角色與插畫皆為 mScanner 原創。",
+ "k123": "即將推出",
+ "k124": "即將推出",
  "ticker": "<span>✦ 掃描</span><span>✦ 裁切</span><span>✦ 優化</span><span>✦ PDF</span><span>✦ 分享</span><span>✦ OCR</span><span>✦ 34 種語言</span><span>✦ 零廣告</span><span>✦ 掃描</span><span>✦ 裁切</span><span>✦ 優化</span><span>✦ PDF</span><span>✦ 分享</span><span>✦ OCR</span><span>✦ 34 種語言</span><span>✦ 零廣告</span>",
- "_store": {
-  "soon": "即將登上 Google Play",
-  "live": "在 Google Play 上取得"
+ "_badge": {
+  "soon": "即將推出",
+  "live": "立即下載"
  },
  "_meta": {
   "title": "mScanner — 口袋裡的神奇掃描器",

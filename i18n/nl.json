@@ -6,7 +6,7 @@
  "k005": "Gloednieuw! Een wonder op zakformaat!",
  "k006": "Dag,<br><span class=\"line2\">papierbergen!</span>",
  "k007": "Je telefoon is nu een kantoorscanner. <b>Scan, snijd bij, verbeter en maak PDF’s</b> — bonnetjes, facturen, contracten, collegeaantekeningen, boekpagina’s. Geen account, geen advertenties, <b>je documenten verlaten nooit je telefoon.</b>",
- "k008": "Binnenkort op Google Play",
+ "k008": "Binnenkort",
  "k009": "Hoe werkt het?",
  "k010": "34 talen",
  "k011": "Werkt offline",
@@ -119,12 +119,14 @@
  "k118": "Hij komt eraan! Binnenkort in de App Store.",
  "k119": "Ik heb een probleem — wie mail ik?",
  "k120": "Mail naar <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Instellingen › Schrijf ons in de app komt daar ook uit.",
- "k121": "Binnenkort op Google Play",
+ "k121": "Binnenkort",
  "k122": "Personages en illustraties zijn origineel voor mScanner.",
+ "k123": "Binnenkort",
+ "k124": "Binnenkort",
  "ticker": "<span>✦ SCAN</span><span>✦ BIJSNIJDEN</span><span>✦ VERBETER</span><span>✦ PDF</span><span>✦ DELEN</span><span>✦ OCR</span><span>✦ 34 TALEN</span><span>✦ GEEN ADVERTENTIES</span><span>✦ SCAN</span><span>✦ BIJSNIJDEN</span><span>✦ VERBETER</span><span>✦ PDF</span><span>✦ DELEN</span><span>✦ OCR</span><span>✦ 34 TALEN</span><span>✦ GEEN ADVERTENTIES</span>",
- "_store": {
-  "soon": "Binnenkort op Google Play",
-  "live": "Ontdek het op Google Play"
+ "_badge": {
+  "soon": "Binnenkort",
+  "live": "Download nu"
  },
  "_meta": {
   "title": "mScanner — De wonderscanner voor in je zak",

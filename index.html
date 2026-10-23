@@ -57,6 +57,15 @@ a{color:inherit}
 .btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
 .btn-red{background:var(--red);color:#fff}
 .btn-cream{background:var(--white);color:var(--ink)}
+.badges{display:flex;flex-wrap:wrap;gap:14px}
+.badge{display:inline-flex;align-items:center;gap:12px;min-width:236px;background:var(--ink);color:#fff;text-decoration:none;padding:9px 22px 9px 16px;border:4px solid var(--ink);border-radius:18px;box-shadow:5px 5px 0 var(--red);transition:transform .15s,box-shadow .15s}
+.badge:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--red)}
+.badge:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--red)}
+.badge svg{flex:0 0 auto}
+.badge span{text-align:start}
+.badge small{display:block;font:800 13px Nunito,sans-serif;letter-spacing:.04em;opacity:.85;line-height:1.2}
+.badge b{display:block;font-family:var(--comic);font-weight:400;font-size:29px;letter-spacing:.04em;line-height:1}
+.badges-center{justify-content:center}
 .btn small{font-family:Nunito,sans-serif;font-size:13px;letter-spacing:0;font-weight:800;opacity:.85}
 
 /* top bar */
@@ -250,10 +259,10 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
         <span data-i18n="k007">Telefonun artık bir ofis tarayıcısı. <b>Tara, kırp, düzelt, PDF yap</b> — fişler, faturalar, sözleşmeler, ders notları, kitap sayfaları. Hesap yok, reklam yok, <b>belgelerin telefonundan çıkmaz.</b></span>
       </p>
       <div class="cta">
-        <a class="btn btn-red" href="#nasil" data-store>
-          <svg width="26" height="28" viewBox="0 0 26 28" aria-hidden="true"><path d="M2 1.5 15 14 2 26.5c-.6-.3-1-1-1-1.8V3.3c0-.8.4-1.5 1-1.8Z" fill="#fff"/><path d="m19.3 9.8-3.4 3.3L19.3 16.5l4.1-2.3c1.2-.7 1.2-2.4 0-3.1Z" fill="#FFD84A"/><path d="M15 14 2 1.5c.4-.2 1-.2 1.5.1l15.8 8.2Z" fill="#7FE0C9"/><path d="M15 14 2 26.5c.4.2 1 .2 1.5-.1l15.8-8.2Z" fill="#FF8B94"/></svg>
-          <span><span data-store-label data-i18n="k008">Çok yakında Google Play'de</span></span>
-        </a>
+        <div class="badges">
+          <a class="badge" href="#nasil" data-store="play"><svg width="30" height="32" viewBox="0 0 26 28" aria-hidden="true"><path d="M2 1.5 15 14 2 26.5c-.6-.3-1-1-1-1.8V3.3c0-.8.4-1.5 1-1.8Z" fill="#7FE0C9"/><path d="m19.3 9.8-3.4 3.3L19.3 16.5l4.1-2.3c1.2-.7 1.2-2.4 0-3.1Z" fill="#FFD84A"/><path d="M15 14 2 1.5c.4-.2 1-.2 1.5.1l15.8 8.2Z" fill="#5BC0F8"/><path d="M15 14 2 26.5c.4.2 1 .2 1.5-.1l15.8-8.2Z" fill="#FF8B94"/></svg><span><small data-i18n="k008">Çok yakında</small><b>Google Play</b></span></a>
+          <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="32" viewBox="0 0 24 28" aria-hidden="true" fill="#fff"><path d="M16.6.2c.2 1.6-.4 3.1-1.3 4.2-.9 1.1-2.4 1.9-3.8 1.8-.2-1.5.5-3.1 1.4-4.1C13.9 1 15.4.3 16.6.2Z"/><path d="M20.1 15c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.2-2.3-1.8-.2-3.5 1-4.4 1-.9 0-2.3-1-3.8-1-1.9 0-3.7 1.1-4.7 2.9-2 3.5-.5 8.7 1.4 11.6 1 1.4 2.1 3 3.6 2.9 1.4-.1 2-.9 3.7-.9s2.2.9 3.7.9c1.5 0 2.5-1.4 3.5-2.8 1.1-1.6 1.5-3.2 1.6-3.3-.1 0-2.9-1.1-2.9-4.5Z"/></svg><span><small data-i18n="k123">Çok yakında</small><b>App Store</b></span></a>
+        </div>
         <a class="btn btn-cream" href="#nasil"><span data-i18n="k009">Nasıl çalışır?</span></a>
       </div>
       <div class="trust">
@@ -550,7 +559,10 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       <details class="panel"><summary><span data-i18n="k119">Bir sorunum var, kime yazayım?</span></summary><p><span data-i18n="k120"><a href="mailto:info@mscanner.com.tr">info@mscanner.com.tr</a> adresine yaz; uygulamada Ayarlar › Bize yazın da aynı yere gider.</span></p></details>
     </div>
     <div style="text-align:center;margin-top:36px" class="reveal">
-      <a class="btn btn-red" href="#nasil" data-store><span><span data-i18n="k121">Çok yakında Google Play'de</span></span></a>
+      <div class="badges badges-center">
+        <a class="badge" href="#nasil" data-store="play"><svg width="30" height="32" viewBox="0 0 26 28" aria-hidden="true"><path d="M2 1.5 15 14 2 26.5c-.6-.3-1-1-1-1.8V3.3c0-.8.4-1.5 1-1.8Z" fill="#7FE0C9"/><path d="m19.3 9.8-3.4 3.3L19.3 16.5l4.1-2.3c1.2-.7 1.2-2.4 0-3.1Z" fill="#FFD84A"/><path d="M15 14 2 1.5c.4-.2 1-.2 1.5.1l15.8 8.2Z" fill="#5BC0F8"/><path d="M15 14 2 26.5c.4.2 1 .2 1.5-.1l15.8-8.2Z" fill="#FF8B94"/></svg><span><small data-i18n="k121">Çok yakında</small><b>Google Play</b></span></a>
+        <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="32" viewBox="0 0 24 28" aria-hidden="true" fill="#fff"><path d="M16.6.2c.2 1.6-.4 3.1-1.3 4.2-.9 1.1-2.4 1.9-3.8 1.8-.2-1.5.5-3.1 1.4-4.1C13.9 1 15.4.3 16.6.2Z"/><path d="M20.1 15c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.2-2.3-1.8-.2-3.5 1-4.4 1-.9 0-2.3-1-3.8-1-1.9 0-3.7 1.1-4.7 2.9-2 3.5-.5 8.7 1.4 11.6 1 1.4 2.1 3 3.6 2.9 1.4-.1 2-.9 3.7-.9s2.2.9 3.7.9c1.5 0 2.5-1.4 3.5-2.8 1.1-1.6 1.5-3.2 1.6-3.3-.1 0-2.9-1.1-2.9-4.5Z"/></svg><span><small data-i18n="k124">Çok yakında</small><b>App Store</b></span></a>
+      </div>
     </div>
   </div>
 </section>
@@ -566,7 +578,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       <a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a>
       <a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a>
       <a href="silme.html">Veri silme</a><a href="data-deletion.html">Data deletion</a>
-      <span style="opacity:.7;width:100%;text-align:inherit">© 2026 MY İşletme Danışmanlık Ltd. Şti. · <span data-i18n="k122">Karakterler ve çizimler mScanner'a özgüdür.</span> Google Play, Google LLC'nin ticari markasıdır / is a trademark of Google LLC.</span>
+      <span style="opacity:.7;width:100%;text-align:inherit">© 2026 MY İşletme Danışmanlık Ltd. Şti. · <span data-i18n="k122">Karakterler ve çizimler mScanner'a özgüdür.</span> Google Play, Google LLC'nin; Apple ve App Store, Apple Inc.'in ticari markalarıdır / Google Play is a trademark of Google LLC; Apple and App Store are trademarks of Apple Inc.</span>
     </div>
   </div>
 </footer>

@@ -6,7 +6,7 @@
  "k005": "Nowość! Cud w kieszonkowym formacie!",
  "k006": "Żegnajcie,<br><span class=\"line2\">sterty papierów!</span>",
  "k007": "Twój telefon to teraz biurowy skaner. <b>Skanuj, przycinaj, poprawiaj i twórz PDF</b> — paragony, faktury, umowy, notatki z zajęć, strony książek. Bez konta, bez reklam, <b>dokumenty nigdy nie opuszczają telefonu.</b>",
- "k008": "Wkrótce w Google Play",
+ "k008": "Wkrótce",
  "k009": "Jak to działa?",
  "k010": "34 języki",
  "k011": "Działa offline",
@@ -119,12 +119,14 @@
  "k118": "Już w drodze! Wkrótce w App Store.",
  "k119": "Mam problem — do kogo pisać?",
  "k120": "Napisz na <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Ustawienia › Napisz do nas w aplikacji też tam trafia.",
- "k121": "Wkrótce w Google Play",
+ "k121": "Wkrótce",
  "k122": "Postacie i ilustracje są oryginalne dla mScanner.",
+ "k123": "Wkrótce",
+ "k124": "Wkrótce",
  "ticker": "<span>✦ SKANUJ</span><span>✦ PRZYTNIJ</span><span>✦ POPRAW</span><span>✦ PDF</span><span>✦ UDOSTĘPNIJ</span><span>✦ OCR</span><span>✦ 34 JĘZYKI</span><span>✦ BEZ REKLAM</span><span>✦ SKANUJ</span><span>✦ PRZYTNIJ</span><span>✦ POPRAW</span><span>✦ PDF</span><span>✦ UDOSTĘPNIJ</span><span>✦ OCR</span><span>✦ 34 JĘZYKI</span><span>✦ BEZ REKLAM</span>",
- "_store": {
-  "soon": "Wkrótce w Google Play",
-  "live": "Pobierz z Google Play"
+ "_badge": {
+  "soon": "Wkrótce",
+  "live": "Pobierz teraz"
  },
  "_meta": {
   "title": "mScanner — Cudowny skaner w Twojej kieszeni",

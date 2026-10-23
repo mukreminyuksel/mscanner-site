@@ -6,7 +6,7 @@
  "k005": "Brandneu! Das Wunder im Taschenformat!",
  "k006": "Tschüss,<br><span class=\"line2\">Papierberge!</span>",
  "k007": "Dein Handy wird zum Büroscanner. <b>Scannen, zuschneiden, verbessern, PDF erstellen</b> — Belege, Rechnungen, Verträge, Mitschriften, Buchseiten. Kein Konto, keine Werbung, <b>deine Dokumente verlassen nie dein Handy.</b>",
- "k008": "Bald auf Google Play",
+ "k008": "Demnächst",
  "k009": "So funktioniert’s",
  "k010": "34 Sprachen",
  "k011": "Funktioniert offline",
@@ -119,12 +119,14 @@
  "k118": "Sie ist unterwegs! Bald im App Store.",
  "k119": "Ich habe ein Problem — wem schreibe ich?",
  "k120": "Schreib an <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — auch „Einstellungen › Schreib uns“ in der App landet dort.",
- "k121": "Bald auf Google Play",
+ "k121": "Demnächst",
  "k122": "Figuren und Illustrationen sind Originale von mScanner.",
+ "k123": "Demnächst",
+ "k124": "Demnächst",
  "ticker": "<span>✦ SCANNEN</span><span>✦ ZUSCHNEIDEN</span><span>✦ VERBESSERN</span><span>✦ PDF</span><span>✦ TEILEN</span><span>✦ OCR</span><span>✦ 34 SPRACHEN</span><span>✦ WERBEFREI</span><span>✦ SCANNEN</span><span>✦ ZUSCHNEIDEN</span><span>✦ VERBESSERN</span><span>✦ PDF</span><span>✦ TEILEN</span><span>✦ OCR</span><span>✦ 34 SPRACHEN</span><span>✦ WERBEFREI</span>",
- "_store": {
-  "soon": "Bald auf Google Play",
-  "live": "Jetzt bei Google Play"
+ "_badge": {
+  "soon": "Demnächst",
+  "live": "Jetzt laden"
  },
  "_meta": {
   "title": "mScanner — der Wunderscanner für die Hosentasche",

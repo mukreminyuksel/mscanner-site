@@ -6,7 +6,7 @@
  "k005": "All-new! Pocket-size miracle!",
  "k006": "So long,<br><span class=\"line2\">paper piles!</span>",
  "k007": "Your phone is now an office scanner. <b>Scan, crop, fix and make PDFs</b> — receipts, invoices, contracts, class notes, book pages. No account, no ads, <b>your documents never leave your phone.</b>",
- "k008": "Coming soon to Google Play",
+ "k008": "Coming soon",
  "k009": "How it works",
  "k010": "34 languages",
  "k011": "Works offline",
@@ -119,12 +119,14 @@
  "k118": "On its way! Coming to the App Store soon.",
  "k119": "I have a problem — who do I write to?",
  "k120": "Write to <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Settings › Write to us in the app goes there too.",
- "k121": "Coming soon to Google Play",
+ "k121": "Coming soon",
  "k122": "Characters and art are original to mScanner.",
+ "k123": "Coming soon",
+ "k124": "Coming soon",
  "ticker": "<span>✦ SCAN</span><span>✦ CROP</span><span>✦ FIX</span><span>✦ MAKE PDF</span><span>✦ SHARE</span><span>✦ OCR</span><span>✦ 34 LANGUAGES</span><span>✦ NO ADS</span><span>✦ SCAN</span><span>✦ CROP</span><span>✦ FIX</span><span>✦ MAKE PDF</span><span>✦ SHARE</span><span>✦ OCR</span><span>✦ 34 LANGUAGES</span><span>✦ NO ADS</span>",
- "_store": {
-  "soon": "Coming soon to Google Play",
-  "live": "Get it on Google Play"
+ "_badge": {
+  "soon": "Coming soon",
+  "live": "Download now"
  },
  "_meta": {
   "title": "mScanner — The miracle scanner in your pocket",

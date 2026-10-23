@@ -6,7 +6,7 @@
  "k005": "Novidade! Um milagre de bolso!",
  "k006": "Adeus,<br><span class=\"line2\">pilhas de papel!</span>",
  "k007": "Seu celular agora é um scanner de escritório. <b>Digitalize, recorte, melhore e crie PDFs</b> — notinhas, faturas, contratos, anotações de aula, páginas de livro. Sem conta, sem anúncios, <b>seus documentos nunca saem do seu celular.</b>",
- "k008": "Em breve no Google Play",
+ "k008": "Em breve",
  "k009": "Como funciona?",
  "k010": "34 idiomas",
  "k011": "Funciona offline",
@@ -119,12 +119,14 @@
  "k118": "Está chegando! Em breve na App Store.",
  "k119": "Tenho um problema — para quem escrevo?",
  "k120": "Escreva para <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Configurações › Fale conosco no app também vai para lá.",
- "k121": "Em breve no Google Play",
+ "k121": "Em breve",
  "k122": "Personagens e ilustrações são originais do mScanner.",
+ "k123": "Em breve",
+ "k124": "Em breve",
  "ticker": "<span>✦ DIGITALIZE</span><span>✦ RECORTE</span><span>✦ MELHORE</span><span>✦ PDF</span><span>✦ COMPARTILHE</span><span>✦ OCR</span><span>✦ 34 IDIOMAS</span><span>✦ SEM ANÚNCIOS</span><span>✦ DIGITALIZE</span><span>✦ RECORTE</span><span>✦ MELHORE</span><span>✦ PDF</span><span>✦ COMPARTILHE</span><span>✦ OCR</span><span>✦ 34 IDIOMAS</span><span>✦ SEM ANÚNCIOS</span>",
- "_store": {
-  "soon": "Em breve no Google Play",
-  "live": "Disponível no Google Play"
+ "_badge": {
+  "soon": "Em breve",
+  "live": "Baixe agora"
  },
  "_meta": {
   "title": "mScanner — O scanner milagroso no seu bolso",

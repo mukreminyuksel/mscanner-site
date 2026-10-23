@@ -6,7 +6,7 @@
  "k005": "Baru! Keajaiban seukuran saku!",
  "k006": "Selamat tinggal,<br><span class=\"line2\">tumpukan kertas!</span>",
  "k007": "Ponsel Anda kini jadi pemindai kantor. <b>Pindai, potong, perbaiki, dan buat PDF</b> — struk, faktur, kontrak, catatan kuliah, halaman buku. Tanpa akun, tanpa iklan, <b>dokumen Anda tidak pernah keluar dari ponsel.</b>",
- "k008": "Segera hadir di Google Play",
+ "k008": "Segera hadir",
  "k009": "Cara kerjanya",
  "k010": "34 bahasa",
  "k011": "Bisa offline",
@@ -119,12 +119,14 @@
  "k118": "Sedang disiapkan! Segera hadir di App Store.",
  "k119": "Saya punya masalah — harus menulis ke siapa?",
  "k120": "Tulis ke <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — menu Setelan › Hubungi kami di aplikasi juga ke sana.",
- "k121": "Segera hadir di Google Play",
+ "k121": "Segera hadir",
  "k122": "Karakter dan ilustrasi asli milik mScanner.",
+ "k123": "Segera hadir",
+ "k124": "Segera hadir",
  "ticker": "<span>✦ PINDAI</span><span>✦ POTONG</span><span>✦ PERBAIKI</span><span>✦ PDF</span><span>✦ BAGIKAN</span><span>✦ OCR</span><span>✦ 34 BAHASA</span><span>✦ TANPA IKLAN</span><span>✦ PINDAI</span><span>✦ POTONG</span><span>✦ PERBAIKI</span><span>✦ PDF</span><span>✦ BAGIKAN</span><span>✦ OCR</span><span>✦ 34 BAHASA</span><span>✦ TANPA IKLAN</span>",
- "_store": {
-  "soon": "Segera hadir di Google Play",
-  "live": "Dapatkan di Google Play"
+ "_badge": {
+  "soon": "Segera hadir",
+  "live": "Unduh sekarang"
  },
  "_meta": {
   "title": "mScanner — Pemindai ajaib di saku Anda",

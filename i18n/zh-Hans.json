@@ -6,7 +6,7 @@
  "k005": "全新登场！口袋里的奇迹！",
  "k006": "再见了，<br><span class=\"line2\">堆积如山的纸！</span>",
  "k007": "你的手机现在就是办公室扫描仪。<b>扫描、裁剪、优化、生成 PDF</b>——小票、发票、合同、课堂笔记、书页。无需账号，没有广告，<b>文件从不离开你的手机。</b>",
- "k008": "即将登陆 Google Play",
+ "k008": "即将推出",
  "k009": "如何使用？",
  "k010": "34 种语言",
  "k011": "离线可用",
@@ -119,12 +119,14 @@
  "k118": "正在路上！即将登陆 App Store。",
  "k119": "遇到问题该联系谁？",
  "k120": "请发邮件至 <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a>——应用内的“设置 › 联系我们”也会发到这里。",
- "k121": "即将登陆 Google Play",
+ "k121": "即将推出",
  "k122": "人物与插画均为 mScanner 原创。",
+ "k123": "即将推出",
+ "k124": "即将推出",
  "ticker": "<span>✦ 扫描</span><span>✦ 裁剪</span><span>✦ 优化</span><span>✦ PDF</span><span>✦ 分享</span><span>✦ OCR</span><span>✦ 34 种语言</span><span>✦ 零广告</span><span>✦ 扫描</span><span>✦ 裁剪</span><span>✦ 优化</span><span>✦ PDF</span><span>✦ 分享</span><span>✦ OCR</span><span>✦ 34 种语言</span><span>✦ 零广告</span>",
- "_store": {
-  "soon": "即将登陆 Google Play",
-  "live": "在 Google Play 上获取"
+ "_badge": {
+  "soon": "即将推出",
+  "live": "立即下载"
  },
  "_meta": {
   "title": "mScanner — 口袋里的神奇扫描仪",

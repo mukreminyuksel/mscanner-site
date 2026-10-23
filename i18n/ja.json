@@ -6,7 +6,7 @@
  "k005": "新登場！ポケットサイズの奇跡！",
  "k006": "さよなら、<br><span class=\"line2\">紙の山！</span>",
  "k007": "あなたのスマホがオフィスのスキャナーに。<b>スキャン、トリミング、補正、PDF 作成</b>— レシート、請求書、契約書、授業ノート、本のページまで。アカウント不要、広告なし、<b>書類がスマホの外に出ることはありません。</b>",
- "k008": "まもなく Google Play で配信",
+ "k008": "まもなく配信",
  "k009": "使い方を見る",
  "k010": "34 言語",
  "k011": "オフラインで動作",
@@ -119,12 +119,14 @@
  "k118": "準備中です！まもなく App Store に登場。",
  "k119": "困ったときの連絡先は？",
  "k120": "<a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> までどうぞ。アプリの 設定 › お問い合わせ も同じ宛先です。",
- "k121": "まもなく Google Play で配信",
+ "k121": "まもなく配信",
  "k122": "キャラクターとイラストは mScanner のオリジナルです。",
+ "k123": "まもなく配信",
+ "k124": "まもなく配信",
  "ticker": "<span>✦ スキャン</span><span>✦ トリミング</span><span>✦ 補正</span><span>✦ PDF</span><span>✦ 共有</span><span>✦ OCR</span><span>✦ 34言語</span><span>✦ 広告なし</span><span>✦ スキャン</span><span>✦ トリミング</span><span>✦ 補正</span><span>✦ PDF</span><span>✦ 共有</span><span>✦ OCR</span><span>✦ 34言語</span><span>✦ 広告なし</span>",
- "_store": {
-  "soon": "まもなく Google Play で配信",
-  "live": "Google Play で手に入れよう"
+ "_badge": {
+  "soon": "まもなく配信",
+  "live": "今すぐダウンロード"
  },
  "_meta": {
   "title": "mScanner — ポケットの中の魔法のスキャナー",

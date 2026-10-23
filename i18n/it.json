@@ -6,7 +6,7 @@
  "k005": "Novità! Un miracolo tascabile!",
  "k006": "Addio,<br><span class=\"line2\">montagne di carta!</span>",
  "k007": "Il tuo telefono ora è uno scanner da ufficio. <b>Scansiona, ritaglia, migliora e crea PDF</b> — scontrini, fatture, contratti, appunti, pagine di libri. Niente account, niente pubblicità, <b>i tuoi documenti non lasciano mai il telefono.</b>",
- "k008": "Presto su Google Play",
+ "k008": "Presto",
  "k009": "Come funziona?",
  "k010": "34 lingue",
  "k011": "Funziona offline",
@@ -119,12 +119,14 @@
  "k118": "Sta arrivando! Presto sull’App Store.",
  "k119": "Ho un problema — a chi scrivo?",
  "k120": "Scrivi a <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — anche Impostazioni › Scrivici nell’app arriva lì.",
- "k121": "Presto su Google Play",
+ "k121": "Presto",
  "k122": "Personaggi e illustrazioni sono originali di mScanner.",
+ "k123": "Presto",
+ "k124": "Presto",
  "ticker": "<span>✦ SCANSIONA</span><span>✦ RITAGLIA</span><span>✦ MIGLIORA</span><span>✦ PDF</span><span>✦ CONDIVIDI</span><span>✦ OCR</span><span>✦ 34 LINGUE</span><span>✦ ZERO PUBBLICITÀ</span><span>✦ SCANSIONA</span><span>✦ RITAGLIA</span><span>✦ MIGLIORA</span><span>✦ PDF</span><span>✦ CONDIVIDI</span><span>✦ OCR</span><span>✦ 34 LINGUE</span><span>✦ ZERO PUBBLICITÀ</span>",
- "_store": {
-  "soon": "Presto su Google Play",
-  "live": "Disponibile su Google Play"
+ "_badge": {
+  "soon": "Presto",
+  "live": "Scarica ora"
  },
  "_meta": {
   "title": "mScanner — Lo scanner miracoloso da tasca",

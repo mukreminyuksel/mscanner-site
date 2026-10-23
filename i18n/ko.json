@@ -6,7 +6,7 @@
  "k005": "신상! 주머니 속 기적!",
  "k006": "안녕,<br><span class=\"line2\">종이 더미!</span>",
  "k007": "이제 휴대폰이 사무실 스캐너. <b>스캔, 자르기, 보정, PDF 만들기</b> — 영수증, 청구서, 계약서, 수업 노트, 책 페이지까지. 계정도 광고도 없이, <b>문서는 절대 휴대폰 밖으로 나가지 않습니다.</b>",
- "k008": "곧 Google Play 출시",
+ "k008": "곧 출시",
  "k009": "어떻게 쓰나요?",
  "k010": "34개 언어",
  "k011": "오프라인 작동",
@@ -119,12 +119,14 @@
  "k118": "준비 중이에요! 곧 App Store에서 만나요.",
  "k119": "문제가 있어요 — 어디로 연락하나요?",
  "k120": "<a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a>로 보내 주세요. 앱의 설정 › 문의하기도 같은 곳으로 갑니다.",
- "k121": "곧 Google Play 출시",
+ "k121": "곧 출시",
  "k122": "캐릭터와 일러스트는 mScanner 오리지널입니다.",
+ "k123": "곧 출시",
+ "k124": "곧 출시",
  "ticker": "<span>✦ 스캔</span><span>✦ 자르기</span><span>✦ 보정</span><span>✦ PDF</span><span>✦ 공유</span><span>✦ OCR</span><span>✦ 34개 언어</span><span>✦ 광고 없음</span><span>✦ 스캔</span><span>✦ 자르기</span><span>✦ 보정</span><span>✦ PDF</span><span>✦ 공유</span><span>✦ OCR</span><span>✦ 34개 언어</span><span>✦ 광고 없음</span>",
- "_store": {
-  "soon": "곧 Google Play 출시",
-  "live": "Google Play에서 다운로드"
+ "_badge": {
+  "soon": "곧 출시",
+  "live": "지금 다운로드"
  },
  "_meta": {
   "title": "mScanner — 주머니 속 기적의 스캐너",

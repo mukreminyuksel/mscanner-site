@@ -6,7 +6,7 @@
  "k005": "Nouveau ! Un miracle de poche !",
  "k006": "Adieu,<br><span class=\"line2\">piles de papier !</span>",
  "k007": "Votre téléphone devient un scanner de bureau. <b>Scannez, recadrez, améliorez, faites des PDF</b> — tickets, factures, contrats, notes de cours, pages de livre. Sans compte, sans pub, <b>vos documents ne quittent jamais votre téléphone.</b>",
- "k008": "Bientôt sur Google Play",
+ "k008": "Bientôt",
  "k009": "Comment ça marche ?",
  "k010": "34 langues",
  "k011": "Fonctionne hors ligne",
@@ -119,12 +119,14 @@
  "k118": "Elle arrive ! Bientôt sur l’App Store.",
  "k119": "J’ai un problème — à qui écrire ?",
  "k120": "Écrivez à <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Réglages › Nous écrire dans l’app y mène aussi.",
- "k121": "Bientôt sur Google Play",
+ "k121": "Bientôt",
  "k122": "Personnages et illustrations originaux de mScanner.",
+ "k123": "Bientôt",
+ "k124": "Bientôt",
  "ticker": "<span>✦ SCANNEZ</span><span>✦ RECADREZ</span><span>✦ AMÉLIOREZ</span><span>✦ PDF</span><span>✦ PARTAGEZ</span><span>✦ OCR</span><span>✦ 34 LANGUES</span><span>✦ SANS PUB</span><span>✦ SCANNEZ</span><span>✦ RECADREZ</span><span>✦ AMÉLIOREZ</span><span>✦ PDF</span><span>✦ PARTAGEZ</span><span>✦ OCR</span><span>✦ 34 LANGUES</span><span>✦ SANS PUB</span>",
- "_store": {
-  "soon": "Bientôt sur Google Play",
-  "live": "Disponible sur Google Play"
+ "_badge": {
+  "soon": "Bientôt",
+  "live": "Télécharger"
  },
  "_meta": {
   "title": "mScanner — Le scanner miracle de poche",
