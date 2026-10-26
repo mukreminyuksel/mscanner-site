@@ -243,6 +243,59 @@ footer a{color:var(--mustard)}
 footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end;align-content:flex-start}
 @media(max-width:760px){footer .wrap{grid-template-columns:minmax(0,1fr)}footer .links{justify-content:flex-start}}
 
+/* before / after */
+.fark .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:36px 40px;align-items:center}
+.fark .title{grid-column:1/-1;margin-bottom:6px}
+.ba{position:relative;width:100%;max-width:430px;margin:0 auto;aspect-ratio:660/900;border:5px solid var(--ink);border-radius:18px;overflow:hidden;box-shadow:8px 8px 0 var(--ink);background:#fff;touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:ew-resize;--p:50%}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none}
+.ba .after{clip-path:inset(0 0 0 var(--p))}
+.ba .line{position:absolute;top:0;bottom:0;left:var(--p);width:5px;margin-left:-2.5px;background:var(--ink)}
+.ba .knob{position:absolute;top:50%;left:var(--p);width:56px;height:56px;margin:-28px 0 0 -28px;border:4px solid var(--ink);border-radius:50%;background:var(--mustard);display:grid;place-items:center;font:400 26px/1 var(--comic);letter-spacing:.1em;box-shadow:3px 3px 0 var(--ink)}
+.ba .lab{position:absolute;top:12px;font-family:var(--comic);font-size:20px;letter-spacing:.06em;padding:3px 12px;border:3px solid var(--ink);border-radius:999px;background:var(--white);box-shadow:2px 2px 0 var(--ink)}
+.ba .l1{left:12px}.ba .l2{right:12px;background:var(--white);font:800 19px/1.3 Nunito,system-ui,sans-serif;letter-spacing:-.01em}
+.ba .l2 b,.flow .me b{color:#0284C7}
+.ba input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;pointer-events:none}
+.ba:focus-within{outline:4px dashed var(--red);outline-offset:6px}
+.ba-note{text-align:center;font-size:13.5px;font-weight:800;opacity:.75;margin:14px auto 0;max-width:430px}
+.vs{overflow:hidden}
+.vs-h,.vs-r{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.vs-h>span{font-family:var(--comic);font-size:25px;letter-spacing:.04em;padding:12px 16px;border-bottom:4px solid var(--ink)}
+.vs-h .bad{background:#E5E7EB}
+.vs .good{border-inline-start:4px solid var(--ink)}
+.vs-h .good{background:var(--mustard)}
+.vs-r>span{padding:12px 16px;font-weight:800;font-size:16.5px;line-height:1.35}
+.vs-r+.vs-r>span{border-top:2px dashed rgba(27,27,31,.22)}
+.vs-r .bad{color:#4B5563}
+.vs-r .good{background:#FFFBEB}
+.vs-r .bad::before{content:"✗ ";color:var(--red)}
+.vs-r .good::before{content:"✓ ";color:var(--teal)}
+.punch{margin:24px 0 0;background:var(--ink);color:var(--white);border-radius:16px;padding:16px 20px;font-size:18px;font-weight:800;box-shadow:5px 5px 0 var(--red);transform:rotate(.6deg)}
+.punch b{display:block;color:var(--mustard);font-family:var(--comic);font-weight:400;font-size:30px;letter-spacing:.04em;line-height:1;margin-bottom:6px}
+@media(max-width:860px){.fark .wrap{grid-template-columns:minmax(0,1fr)}.vs-h>span{font-size:21px}.vs-r>span{font-size:15px;padding:10px 12px}}
+
+/* send anywhere */
+.flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 14px;margin:-10px auto 34px}
+.flow .pill{font-family:var(--comic);font-size:24px;letter-spacing:.05em;background:var(--white);border:4px solid var(--ink);border-radius:999px;padding:6px 18px;box-shadow:4px 4px 0 var(--ink)}
+.flow .me{background:var(--mustard);font:800 22px/1.25 Nunito,system-ui,sans-serif;letter-spacing:-.01em}
+.flow i{font-style:normal;font-family:var(--comic);font-size:34px;color:var(--white);-webkit-text-stroke:2px var(--ink);paint-order:stroke fill}
+.flow .g{display:inline-flex;align-items:center;gap:inherit}
+[dir="rtl"] .flow i{transform:scaleX(-1)}
+.spot{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:10px 30px;align-items:center;padding:26px 28px;margin-bottom:24px}
+.spot svg{width:100%;max-width:330px;margin:0 auto;display:block}
+.spot h3{font-family:var(--comic);font-weight:400;font-size:clamp(32px,4vw,44px);letter-spacing:.04em;line-height:1;margin:0 0 8px;color:var(--red);-webkit-text-stroke:2px var(--ink);paint-order:stroke fill}
+.spot p{margin:0 0 12px;font-size:17px;font-weight:800}
+.spot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.spot li{background:#E0F2FE;border:3px solid var(--ink);border-radius:12px;padding:7px 12px;font-weight:800;font-size:15.5px}
+.spot .tiny{font-size:13px;opacity:.75;margin:12px 0 0}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.tile{padding:20px 20px 18px;transition:transform .18s}
+.tile:hover{transform:rotate(-1deg) translateY(-4px)}
+.tile .ico{width:54px;height:54px;border:4px solid var(--ink);border-radius:16px;display:grid;place-items:center;font-size:28px;box-shadow:3px 3px 0 var(--ink);margin-bottom:10px}
+.tile h3{font-family:var(--comic);font-weight:400;font-size:26px;letter-spacing:.04em;margin:0 0 6px;line-height:1.05}
+.tile p{margin:0;font-size:16px}
+@media(max-width:900px){.spot{grid-template-columns:minmax(0,1fr)}.spot svg{max-width:260px}.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.tiles{grid-template-columns:minmax(0,1fr)}.spot{padding:20px 18px}.flow{gap:8px 6px}.flow .pill{font-size:15px;padding:3px 9px;border-width:3px;box-shadow:3px 3px 0 var(--ink);white-space:nowrap}.flow .me{font-size:15px}.flow i{font-size:20px}}
+
 .reveal{opacity:0;transform:translateY(24px) rotate(-.5deg);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
@@ -340,6 +393,36 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
 </section>
 
 <div class="ticker" aria-hidden="true"><div data-i18n="ticker"><span>✦ TARA</span><span>✦ KIRP</span><span>✦ DÜZELT</span><span>✦ PDF YAP</span><span>✦ PAYLAŞ</span><span>✦ OCR</span><span>✦ 34 DİL</span><span>✦ REKLAMSIZ</span><span>✦ TARA</span><span>✦ KIRP</span><span>✦ DÜZELT</span><span>✦ PDF YAP</span><span>✦ PAYLAŞ</span><span>✦ OCR</span><span>✦ 34 DİL</span><span>✦ REKLAMSIZ</span></div></div>
+
+<!-- ============ PHOTO vs DOCUMENT ============ -->
+<section id="fark" class="fark on-paper dots">
+  <div class="wrap">
+    <div class="title reveal">
+      <h2><span data-i18n="k141">Fotoğraf değil, belge!</span></h2>
+      <p><span data-i18n="k142">Çizgiyi sürükle: solda masada çekilmiş bir fotoğraf, sağda aynı kâğıdın mScanner'dan çıkmış hâli.</span></p>
+    </div>
+    <div class="reveal">
+      <div class="ba" dir="ltr">
+        <img src="img/once-foto.webp" width="660" height="900" alt="Masada çekilmiş fatura fotoğrafı / Photo of an invoice on a desk">
+        <img class="after" src="img/sonra-belge.webp" width="660" height="900" alt="mScanner sonucu: düz, beyaz zeminli fatura / mScanner result: flat invoice on white">
+        <span class="line" aria-hidden="true"></span><span class="knob" aria-hidden="true">‹›</span>
+        <span class="lab l1"><span data-i18n="k143">FOTOĞRAF</span></span><span class="lab l2"><b>m</b>Scanner</span>
+        <input type="range" min="0" max="100" value="50" aria-label="Önce / sonra · Before / after">
+      </div>
+      <p class="ba-note"><span data-i18n="k155">Kurgusal örnek belge. Sağdaki görüntü, mScanner'ın gerçek çıktısıdır (iPhone simülatörü, ücretsiz Beyaz Zemin filtresi).</span></p>
+    </div>
+    <div class="reveal">
+      <div class="vs panel">
+        <div class="vs-h"><span class="bad"><span data-i18n="k144">Fotoğraf atınca</span></span><span class="good"><span data-i18n="k145">mScanner'la</span></span></div>
+        <div class="vs-r"><span class="bad"><span data-i18n="k146">Eğik, gölgeli; masa da görünür</span></span><span class="good"><span data-i18n="k147">Dümdüz, bembeyaz; yalnız belge</span></span></div>
+        <div class="vs-r"><span class="bad"><span data-i18n="k148">Her sayfa ayrı bir fotoğraf</span></span><span class="good"><span data-i18n="k149">Bütün sayfalar tek PDF'de</span></span></div>
+        <div class="vs-r"><span class="bad"><span data-i18n="k150">Yazdırınca gri ve silik</span></span><span class="good"><span data-i18n="k151">A4'e hazır, net baskı</span></span></div>
+        <div class="vs-r"><span class="bad"><span data-i18n="k152">Galeride kaybolur gider</span></span><span class="good"><span data-i18n="k153">Kategorisinde, adıyla; istersen PIN'li klasörde</span></span></div>
+      </div>
+      <p class="punch"><span data-i18n="k154"><b>Rakip değil, ilk adım!</b> Taradığın PDF'i yine aynı mesajlaşma uygulamasıyla, e-postayla ya da yapay zekâ uygulamanla paylaşırsın. Fark şu: bu kez düzgün.</span></p>
+    </div>
+  </div>
+</section>
 
 <!-- ============ COMIC STRIP ============ -->
 <section id="nasil" class="dots-teal">
@@ -454,6 +537,55 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       <div class="use reveal" style="--c:#5BC0EB"><div class="ub"><span data-i18n="k038">Kimliğin ön ve arka yüzü tek sayfada!</span></div><p><span data-i18n="k039">🪪 Kimlik 2'si 1 arada: başvurular ve resmî işler için hazır A4.</span></p></div>
     </div>
     <p class="fine"><span data-i18n="k040">GoodNotes ve Notability, sahiplerinin ticari markalarıdır; mScanner bu uygulamalarla bağlantılı değildir. PDF, cihazının Paylaş menüsüyle yüklü olan uygulamaya gönderilir.</span></p>
+  </div>
+</section>
+
+<!-- ============ SEND ANYWHERE ============ -->
+<section id="nereye" class="dots-teal">
+  <div class="wrap">
+    <div class="title reveal">
+      <h2><span data-i18n="k156">Önce mScanner, sonra her yere!</span></h2>
+      <p style="color:#fff;font-weight:800;text-shadow:2px 2px 0 #1B1B1F"><span data-i18n="k157">Alışkanlığını değiştirmene gerek yok: aynı yere gönder, yalnız daha düzgün.</span></p>
+    </div>
+    <div class="flow reveal" aria-hidden="true"><span class="pill">📄 <span data-i18n="k158">Kâğıt</span></span><i>→</i><span class="pill me"><b>m</b>Scanner</span><span class="g"><i>→</i><span class="pill">🌍 <span data-i18n="k159">Her yere</span></span></span></div>
+    <article class="spot panel reveal">
+      <svg viewBox="0 0 330 270" aria-hidden="true">
+          <g stroke="#1B1B1F" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+            <rect x="8" y="150" width="96" height="112" rx="4" fill="#FFFDF7" transform="rotate(-10 56 206)"/>
+            <path d="M24 176h56M24 190h62M24 204h44M24 218h58" stroke-width="3" transform="rotate(-10 56 206)"/>
+            <rect x="86" y="10" width="226" height="250" rx="22" fill="#1D3557"/>
+            <rect x="102" y="26" width="194" height="218" rx="8" fill="#FFFDF7" stroke-width="3"/>
+            <path d="M118 52h120M118 74h150M118 96h96M118 132h150M118 154h132M118 190h80" stroke="#94A3B8" stroke-width="3"/>
+            <path d="M206 96q14-12 26 2t30-6" fill="none" stroke="#E63946" stroke-width="4"/>
+            <path d="M118 112q24 8 54 0" fill="none" stroke="#F4B42C" stroke-width="9" opacity=".8"/>
+            <path d="M222 182l12 14 26-30" fill="none" stroke="#1F9E8F" stroke-width="6"/>
+            <path d="M268 206l40-64 14 9-40 64-18 9Z" fill="#F4B42C"/>
+            <path d="M268 206l-4 18 18-9" fill="#F7C9A3"/>
+          </g>
+          <g fill="#F4B42C" stroke="#1B1B1F" stroke-width="3"><path d="M60 40l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2Z"/></g>
+          <path d="M44 118q18-34 46-30" fill="none" stroke="#1B1B1F" stroke-width="5" stroke-linecap="round"/><path d="M78 80l14 8-12 10" fill="none" stroke="#1B1B1F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      <div>
+        <h3><span data-i18n="k160">Kâğıttan dijital deftere</span></h3>
+        <p><span data-i18n="k161">Kâğıt kaynaklarını tara, PDF'i Paylaş menüsüyle GoodNotes, Notability ya da sevdiğin not uygulamasında aç; tablette kalemle yaz, çöz, işaretle.</span></p>
+        <ul>
+          <li><span data-i18n="k162">📝 Çalışma kâğıtları ve test sayfaları: kalemle çöz, silip yeniden dene.</span></li>
+          <li><span data-i18n="k163">📖 Kendi kitabının alıştırma sayfaları: kitap kavisi düzelir (Pro).</span></li>
+          <li><span data-i18n="k164">🧑‍🏫 Öğretmenler: bir kez tara, bütün sınıfa tek PDF gönder.</span></li>
+          <li><span data-i18n="k165">🗂️ Ders çıktıları ve eski sınavlar: hepsi tek dosyada, sınav öncesi tabletinde.</span></li>
+          <li><span data-i18n="k166">🎼 Nota kâğıtları, tarifler, el yazısı defterler.</span></li>
+        </ul>
+        <p class="tiny"><span data-i18n="k167">Telif hakkıyla korunan içerikleri yalnız kendi kişisel kullanımın için tara.</span></p>
+      </div>
+    </article>
+    <div class="tiles">
+      <div class="tile panel reveal"><div class="ico" style="background:#5BC0EB">💬</div><h3><span data-i18n="k168">Mesaj ve e-posta</span></h3><p><span data-i18n="k169">Fotoğraf yığını yerine tek PDF; karşı taraf rahatça açar, yazdırır.</span></p></div>
+      <div class="tile panel reveal"><div class="ico" style="background:#F7A1B5">🤖</div><h3><span data-i18n="k170">Yapay zekâ</span></h3><p><span data-i18n="k171">Belgenin fotoğrafını yükleme: metni cihazında tanı, hazır komutla yapay zekâ uygulamana yalnız metni aktar, yanıtı belgeye geri al. (Pro)</span></p></div>
+      <div class="tile panel reveal"><div class="ico" style="background:#F4B42C">🏛️</div><h3><span data-i18n="k172">Resmî başvurular</span></h3><p><span data-i18n="k173">“PDF olarak yükleyin” mi dendi? A4, net, tek dosya; kimliğin ön ve arka yüzü tek sayfada.</span></p></div>
+      <div class="tile panel reveal"><div class="ico" style="background:#1F9E8F">🖨️</div><h3><span data-i18n="k174">Yazıcı</span></h3><p><span data-i18n="k175">Doğrudan yazdır; A4, A5 ya da Letter seç.</span></p></div>
+      <div class="tile panel reveal"><div class="ico" style="background:#5BC0EB">💻</div><h3><span data-i18n="k176">Bilgisayar ve bulut</span></h3><p><span data-i18n="k177">PDF'i Paylaş menüsüyle bulut klasörüne ya da e-postayla bilgisayarına gönder.</span></p></div>
+      <div class="tile panel reveal"><div class="ico" style="background:#E63946">🗄️</div><h3><span data-i18n="k178">Arşiv</span></h3><p><span data-i18n="k179">Fiş, garanti, sağlık kâğıtları: telefonunda ya da tabletinde, istersen PIN'li klasörde.</span></p></div>
+    </div>
   </div>
 </section>
 
@@ -707,6 +839,28 @@ document.querySelectorAll('.gal').forEach(g => {
   prev.addEventListener('click', () => go(-1)); next.addEventListener('click', () => go(1));
   strip.addEventListener('scroll', sync, { passive: true }); strip.addEventListener('scrollend', sync);
   addEventListener('resize', sync); sync();
+});
+</script>
+<script>
+document.querySelectorAll('.ba').forEach(ba => {
+  const range = ba.querySelector('input');
+  let drag = false;
+  const set = v => { v = Math.max(0, Math.min(100, v)); ba.style.setProperty('--p', v + '%'); range.value = Math.round(v); };
+  const at = e => { const b = ba.getBoundingClientRect(); set((e.clientX - b.left) / b.width * 100); };
+  ba.addEventListener('pointerdown', e => { drag = true; ba.setPointerCapture(e.pointerId); at(e); range.focus({ preventScroll: true }); });
+  ba.addEventListener('pointermove', e => { if (drag) at(e); });
+  ['pointerup', 'pointercancel'].forEach(t => ba.addEventListener(t, () => { drag = false; }));
+  range.addEventListener('input', () => set(+range.value));
+  // one sweep when it first comes into view, so visitors see that the line moves
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(es => {
+    if (!es[0].isIntersecting) return;
+    io.disconnect();
+    const t0 = performance.now();
+    const tick = now => { if (drag) return; const k = (now - t0) / 1800; if (k >= 1) return set(50); set(50 - 32 * Math.sin(k * Math.PI * 2)); requestAnimationFrame(tick); };
+    setTimeout(() => requestAnimationFrame(tick), 400);
+  }, { threshold: .6 });
+  io.observe(ba);
 });
 </script>
 </body>
