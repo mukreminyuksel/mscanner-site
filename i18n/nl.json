@@ -6,7 +6,6 @@
  "k005": "Gloednieuw! Een wonder op zakformaat!",
  "k006": "Dag,<br><span class=\"line2\">papierbergen!</span>",
  "k007": "Je telefoon is nu een kantoorscanner — je tablet ook! <b>Scan, snijd bij, verbeter en maak PDF’s</b> — bonnetjes, facturen, contracten, collegeaantekeningen, boekpagina’s. Geen account, geen advertenties; op je telefoon of tablet, <b>je documenten verlaten nooit je apparaat.</b>",
- "k008": "Binnenkort",
  "k009": "Hoe werkt het?",
  "k010": "34 talen",
  "k011": "Werkt offline",
@@ -95,9 +94,9 @@
  "k078": "Geen account, geen e-mail, geen wachtwoord.",
  "k079": "Geen advertenties, geen trackers.",
  "k080": "Scannen en OCR werken offline.",
- "k081": "Minder dan <em>$ 1</em> per maand!",
- "k082": "Een hele maand onbeperkt Pro — <em>voor de prijs van een flesje water!</em><small>$ 0,99 / maand</small>",
- "k083": "Een heel jaar onbeperkt Pro — <em>goedkoper dan een hamburger!</em><small>$ 7,99 / jaar · 7 dagen gratis proberen</small>",
+ "k081": "Minder dan een dollar. <em>Meer dan een scanner!</em>",
+ "k082": "Je koffie wordt koud, Pro blijft 30 dagen. <em>$ 0,99 per maand: minder dan een kop koffie in een café!</em><small>wordt maandelijks verlengd tot je opzegt</small>",
+ "k083": "Een burgermenu is na één maaltijd op, Pro blijft een heel jaar. <em>$ 7,99 per jaar: minder dan een gemiddeld burgermenu!</em><small>zo'n $ 0,67 per maand · 7 dagen gratis, daarna jaarlijks in rekening gebracht tenzij je opzegt</small>",
  "k084": "Prijzen? Om blij van te worden!",
  "k085": "Begin gratis; stap over op Pro wanneer je wilt, stop wanneer je wilt.",
  "k086": "Gratis",
@@ -109,7 +108,7 @@
  "k092": "FAVORIET",
  "k093": "Pro · Jaarlijks",
  "k094": "$ 7,99<small>/jaar</small>",
- "k095": "Een heel jaar onbeperkt Pro — <b>goedkoper dan een hamburger!</b><br>≈ $ 0,67 per maand · <b>7 dagen gratis proberen</b>",
+ "k095": "Een heel jaar onbeperkt Pro<br>≈ $ 0,67 per maand · <b>7 dagen gratis proberen</b>, daarna $ 7,99 per jaar tenzij je opzegt",
  "k096": "Alles uit Gratis",
  "k097": "PDF’s zonder mScanner-markering",
  "k098": "Printklaar, toner opschonen, boek- en schaduwcorrectie",
@@ -117,11 +116,11 @@
  "k100": "Handtekening, stempel, watermerk, bulkbewerking",
  "k101": "Pro · Maandelijks",
  "k102": "$ 0,99<small>/maand</small>",
- "k103": "Een hele maand onbeperkt Pro — <b>voor de prijs van een flesje water!</b> Altijd opzegbaar.",
+ "k103": "Een hele maand onbeperkt Pro. Wordt maandelijks verlengd tot je opzegt; altijd opzegbaar.",
  "k104": "Heel Pro",
  "k105": "Maand-tot-maand vrijheid",
  "k106": "Veilig betalen via Google Play",
- "k107": "Prijzen in de VS: $ 0,99 per maand, $ 7,99 per jaar. In andere landen toont Google Play de lokale prijs inclusief belastingen. Het abonnement wordt elke periode verlengd tot je opzegt; zeg op wanneer je wilt via Google Play › Abonnementen en Pro blijft actief tot het einde van de betaalde periode.",
+ "k107": "Prijzen in de VS: $ 0,99 per maand, $ 7,99 per jaar. In andere landen toont de store de lokale prijs inclusief belastingen; de prijs op het aankoopscherm geldt. De gratis proefperiode van 7 dagen bij het jaarabonnement wordt een betaald jaarabonnement als je niet uiterlijk 24 uur voor het einde opzegt. Het abonnement wordt elke periode verlengd tot je opzegt; zeg op wanneer je wilt via Google Play › Abonnementen of App Store › Abonnementen en Pro blijft actief tot het einde van de betaalde periode. Details: <a href=\"subscription.html\">Abonnementsinformatie</a>. De vergelijkingen gaan uit van gangbare Amerikaanse prijzen in 2026 voor koffie in een café en een burgermenu bij een fastfoodketen.",
  "k108": "Vragen en antwoorden",
  "k109": "Heb ik een account nodig?",
  "k110": "Nee. Open de app en begin met scannen.",
@@ -135,7 +134,6 @@
  "k118": "Hij komt eraan! Binnenkort in de App Store.",
  "k119": "Ik heb een probleem — wie mail ik?",
  "k120": "Mail naar <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Instellingen › Schrijf ons in de app komt daar ook uit.",
- "k121": "Binnenkort",
  "k122": "Personages en illustraties zijn origineel voor mScanner.",
  "k123": "Binnenkort",
  "k124": "Binnenkort",
@@ -178,6 +176,7 @@
  "k177": "Stuur de PDF via Delen naar een cloudmap, of per e-mail naar je computer.",
  "k178": "Archief",
  "k179": "Bonnetjes, garanties, medische papieren: op je telefoon of tablet, desgewenst in een map met pincode.",
+ "k180": "Prijs in de VS: $ 0,99 per maand · prijzen verschillen per land",
  "ticker": "<span>✦ SCAN</span><span>✦ BIJSNIJDEN</span><span>✦ VERBETER</span><span>✦ PDF</span><span>✦ DELEN</span><span>✦ OCR</span><span>✦ 34 TALEN</span><span>✦ GEEN ADVERTENTIES</span><span>✦ SCAN</span><span>✦ BIJSNIJDEN</span><span>✦ VERBETER</span><span>✦ PDF</span><span>✦ DELEN</span><span>✦ OCR</span><span>✦ 34 TALEN</span><span>✦ GEEN ADVERTENTIES</span>",
  "_badge": {
   "soon": "Binnenkort",
@@ -186,5 +185,6 @@
  "_meta": {
   "title": "mScanner — De wonderscanner voor in je zak",
   "description": "Scan, snijd bij, verbeter en maak PDF’s. Geen account, geen advertenties, alles blijft op je telefoon. Pro voor minder dan $ 1 per maand."
- }
+ },
+ "_play": "Ontdek het op Google Play"
 }

@@ -6,7 +6,6 @@
  "k005": "All-new! Pocket-size miracle!",
  "k006": "So long,<br><span class=\"line2\">paper piles!</span>",
  "k007": "Your phone is now an office scanner — your tablet too! <b>Scan, crop, fix and make PDFs</b> — receipts, invoices, contracts, class notes, book pages. No account, no ads; on your phone or your tablet, <b>your documents never leave your device.</b>",
- "k008": "Coming soon",
  "k009": "How it works",
  "k010": "34 languages",
  "k011": "Works offline",
@@ -95,9 +94,9 @@
  "k078": "No account, no e-mail, no password.",
  "k079": "No ads, no trackers.",
  "k080": "Scanning and OCR work offline.",
- "k081": "Less than <em>$1</em> a month!",
- "k082": "A whole month of unlimited Pro — <em>for the price of a bottle of water!</em><small>$0.99 / month</small>",
- "k083": "A whole year of unlimited Pro — <em>cheaper than a burger!</em><small>$7.99 / year · 7-day free trial</small>",
+ "k081": "Less than a dollar. <em>More than a scanner!</em>",
+ "k082": "Your coffee goes cold. Pro lasts 30 days. <em>$0.99 a month: less than a café coffee!</em><small>renews monthly until cancelled</small>",
+ "k083": "A burger meal lasts one lunch. Pro lasts all year. <em>$7.99 a year: less than the average burger meal!</em><small>about $0.67 a month · 7-day free trial, then billed yearly unless cancelled</small>",
  "k084": "Prices? The smiley kind!",
  "k085": "Start free; go Pro whenever you like, cancel whenever you like.",
  "k086": "Free",
@@ -109,7 +108,7 @@
  "k092": "CROWD FAVOURITE",
  "k093": "Pro · Yearly",
  "k094": "$7.99<small>/yr</small>",
- "k095": "A whole year of unlimited Pro — <b>cheaper than a burger!</b><br>≈ $0.67 a month · <b>7-day free trial</b>",
+ "k095": "A whole year of unlimited Pro<br>≈ $0.67 a month · <b>7-day free trial</b>, then $7.99 a year unless cancelled",
  "k096": "Everything in Free",
  "k097": "PDFs without the mScanner mark",
  "k098": "Print-ready, toner clean-up, book &amp; shadow fixes",
@@ -117,11 +116,11 @@
  "k100": "Signature, stamp, watermark, batch edits",
  "k101": "Pro · Monthly",
  "k102": "$0.99<small>/mo</small>",
- "k103": "A whole month of unlimited Pro — <b>for the price of a bottle of water!</b> Cancel anytime.",
+ "k103": "A whole month of unlimited Pro. Renews monthly until you cancel; cancel anytime.",
  "k104": "All of Pro",
  "k105": "Month-to-month freedom",
  "k106": "Secure payment via Google Play",
- "k107": "US prices: $0.99 a month, $7.99 a year. Other countries see their local price in Google Play, taxes included. The subscription renews every period until cancelled; cancel anytime in Google Play › Subscriptions and Pro stays on until the paid period ends.",
+ "k107": "US prices: $0.99 a month, $7.99 a year. Other countries see their local price in the store, taxes included; the price on the purchase screen applies. The 7-day free trial on the yearly plan turns into a paid yearly subscription unless cancelled at least 24 hours before it ends. The subscription renews every period until cancelled; cancel anytime in Google Play › Subscriptions or App Store › Subscriptions and Pro stays on until the paid period ends. Details: <a href=\"subscription.html\">Subscription information</a>. Comparisons use typical 2026 US prices for a café coffee and a fast-food burger meal.",
  "k108": "Questions, answered",
  "k109": "Do I need an account?",
  "k110": "No. Open the app and start scanning.",
@@ -135,7 +134,6 @@
  "k118": "On its way! Coming to the App Store soon.",
  "k119": "I have a problem — who do I write to?",
  "k120": "Write to <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Settings › Write to us in the app goes there too.",
- "k121": "Coming soon",
  "k122": "Characters and art are original to mScanner.",
  "k123": "Coming soon",
  "k124": "Coming soon",
@@ -178,6 +176,7 @@
  "k177": "Send the PDF to a cloud folder from the Share menu, or email it to your computer.",
  "k178": "Archive",
  "k179": "Receipts, warranties, medical papers: on your phone or tablet, in a PIN folder if you like.",
+ "k180": "US price: $0.99 a month · prices vary by country",
  "ticker": "<span>✦ SCAN</span><span>✦ CROP</span><span>✦ FIX</span><span>✦ MAKE PDF</span><span>✦ SHARE</span><span>✦ OCR</span><span>✦ 34 LANGUAGES</span><span>✦ NO ADS</span><span>✦ SCAN</span><span>✦ CROP</span><span>✦ FIX</span><span>✦ MAKE PDF</span><span>✦ SHARE</span><span>✦ OCR</span><span>✦ 34 LANGUAGES</span><span>✦ NO ADS</span>",
  "_badge": {
   "soon": "Coming soon",
@@ -186,5 +185,6 @@
  "_meta": {
   "title": "mScanner — The miracle scanner in your pocket",
   "description": "Scan, crop, fix and PDF your documents. No account, no ads, documents stay on your phone. Pro is under $1 a month."
- }
+ },
+ "_play": "Get it on Google Play"
 }

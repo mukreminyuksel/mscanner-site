@@ -6,7 +6,6 @@
  "k005": "Baru! Keajaiban seukuran saku!",
  "k006": "Selamat tinggal,<br><span class=\"line2\">tumpukan kertas!</span>",
  "k007": "Ponsel Anda kini jadi pemindai kantor — tablet Anda juga! <b>Pindai, potong, perbaiki, dan buat PDF</b> — struk, faktur, kontrak, catatan kuliah, halaman buku. Tanpa akun, tanpa iklan; di ponsel atau tablet, <b>dokumen Anda tidak pernah keluar dari perangkat.</b>",
- "k008": "Segera hadir",
  "k009": "Cara kerjanya",
  "k010": "34 bahasa",
  "k011": "Bisa offline",
@@ -95,9 +94,9 @@
  "k078": "Tanpa akun, tanpa email, tanpa kata sandi.",
  "k079": "Tanpa iklan, tanpa pelacak.",
  "k080": "Pemindaian dan OCR bisa offline.",
- "k081": "Kurang dari <em>$1</em> per bulan!",
- "k082": "Sebulan penuh Pro tanpa batas — <em>seharga sebotol air minum!</em><small>$0,99 / bulan</small>",
- "k083": "Setahun penuh Pro tanpa batas — <em>lebih murah dari sebuah burger!</em><small>$7,99 / tahun · gratis 7 hari</small>",
+ "k081": "Kurang dari satu dolar. <em>Lebih dari sekadar pemindai!</em>",
+ "k082": "Kopimu cepat dingin, Pro bertahan 30 hari. <em>$0,99 per bulan: lebih murah dari secangkir kopi di kafe!</em><small>diperpanjang setiap bulan sampai dibatalkan</small>",
+ "k083": "Paket burger habis sekali makan, Pro bertahan setahun penuh. <em>$7,99 per tahun: lebih murah dari rata-rata paket burger!</em><small>sekitar $0,67 per bulan · gratis 7 hari, lalu ditagih tahunan jika tidak dibatalkan</small>",
  "k084": "Harganya? Bikin senyum!",
  "k085": "Mulai gratis; naik ke Pro kapan saja, berhenti kapan saja.",
  "k086": "Gratis",
@@ -109,7 +108,7 @@
  "k092": "PALING DISUKAI",
  "k093": "Pro · Tahunan",
  "k094": "$7,99<small>/thn</small>",
- "k095": "Setahun penuh Pro tanpa batas — <b>lebih murah dari sebuah burger!</b><br>≈ $0,67 per bulan · <b>gratis 7 hari</b>",
+ "k095": "Setahun penuh Pro tanpa batas<br>≈ $0,67 per bulan · <b>gratis 7 hari</b>, lalu $7,99 per tahun jika tidak dibatalkan",
  "k096": "Semua fitur Gratis",
  "k097": "PDF tanpa tanda mScanner",
  "k098": "Siap Cetak, bersihkan toner, koreksi buku &amp; bayangan",
@@ -117,11 +116,11 @@
  "k100": "Tanda tangan, stempel, tanda air, edit massal",
  "k101": "Pro · Bulanan",
  "k102": "$0,99<small>/bln</small>",
- "k103": "Sebulan penuh Pro tanpa batas — <b>seharga sebotol air minum!</b> Bisa berhenti kapan saja.",
+ "k103": "Sebulan penuh Pro tanpa batas. Diperpanjang setiap bulan sampai kamu membatalkan; bisa berhenti kapan saja.",
  "k104": "Semua fitur Pro",
  "k105": "Bebas per bulan",
  "k106": "Pembayaran aman lewat Google Play",
- "k107": "Harga di AS: $0,99 per bulan, $7,99 per tahun. Di negara lain Google Play menampilkan harga lokal termasuk pajak. Langganan diperpanjang setiap periode sampai dibatalkan; batalkan kapan saja di Google Play › Langganan dan Pro tetap aktif hingga akhir periode yang dibayar.",
+ "k107": "Harga di AS: $0,99 per bulan, $7,99 per tahun. Di negara lain toko aplikasi menampilkan harga lokal termasuk pajak; yang berlaku adalah harga di layar pembelian. Uji coba gratis 7 hari pada paket tahunan berubah menjadi langganan tahunan berbayar jika tidak dibatalkan paling lambat 24 jam sebelum berakhir. Langganan diperpanjang setiap periode sampai dibatalkan; batalkan kapan saja di Google Play › Langganan atau App Store › Langganan dan Pro tetap aktif hingga akhir periode yang dibayar. Detail: <a href=\"subscription.html\">Informasi langganan</a>. Perbandingan memakai harga umum di AS pada 2026 untuk kopi di kafe dan paket burger cepat saji.",
  "k108": "Tanya jawab",
  "k109": "Perlu akun?",
  "k110": "Tidak. Buka aplikasi dan mulai memindai.",
@@ -135,7 +134,6 @@
  "k118": "Sedang disiapkan! Segera hadir di App Store.",
  "k119": "Saya punya masalah — harus menulis ke siapa?",
  "k120": "Tulis ke <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — menu Setelan › Hubungi kami di aplikasi juga ke sana.",
- "k121": "Segera hadir",
  "k122": "Karakter dan ilustrasi asli milik mScanner.",
  "k123": "Segera hadir",
  "k124": "Segera hadir",
@@ -178,6 +176,7 @@
  "k177": "Kirim PDF ke folder cloud lewat menu Bagikan, atau lewat email ke komputermu.",
  "k178": "Arsip",
  "k179": "Struk, garansi, dokumen medis: di ponsel atau tablet, di folder PIN kalau mau.",
+ "k180": "Harga di AS: $0,99 per bulan · harga berbeda di tiap negara",
  "ticker": "<span>✦ PINDAI</span><span>✦ POTONG</span><span>✦ PERBAIKI</span><span>✦ PDF</span><span>✦ BAGIKAN</span><span>✦ OCR</span><span>✦ 34 BAHASA</span><span>✦ TANPA IKLAN</span><span>✦ PINDAI</span><span>✦ POTONG</span><span>✦ PERBAIKI</span><span>✦ PDF</span><span>✦ BAGIKAN</span><span>✦ OCR</span><span>✦ 34 BAHASA</span><span>✦ TANPA IKLAN</span>",
  "_badge": {
   "soon": "Segera hadir",
@@ -186,5 +185,6 @@
  "_meta": {
   "title": "mScanner — Pemindai ajaib di saku Anda",
   "description": "Pindai, potong, perbaiki, dan jadikan PDF. Tanpa akun, tanpa iklan, dokumen tetap di ponsel. Pro kurang dari $1 per bulan."
- }
+ },
+ "_play": "Dapatkan di Google Play"
 }

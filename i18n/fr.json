@@ -6,7 +6,6 @@
  "k005": "Nouveau ! Un miracle de poche !",
  "k006": "Adieu,<br><span class=\"line2\">piles de papier !</span>",
  "k007": "Votre téléphone devient un scanner de bureau — votre tablette aussi ! <b>Scannez, recadrez, améliorez, faites des PDF</b> — tickets, factures, contrats, notes de cours, pages de livre. Sans compte, sans pub ; sur téléphone ou sur tablette, <b>vos documents ne quittent jamais votre appareil.</b>",
- "k008": "Bientôt",
  "k009": "Comment ça marche ?",
  "k010": "34 langues",
  "k011": "Fonctionne hors ligne",
@@ -95,9 +94,9 @@
  "k078": "Pas de compte, pas d’e-mail, pas de mot de passe.",
  "k079": "Pas de pub, pas de traceurs.",
  "k080": "Scan et OCR fonctionnent hors ligne.",
- "k081": "Moins de <em>1 $</em> par mois !",
- "k082": "Un mois entier de Pro illimité — <em>pour le prix d’une bouteille d’eau !</em><small>0,99 $ / mois</small>",
- "k083": "Une année entière de Pro illimité — <em>moins cher qu’un burger !</em><small>7,99 $ / an · 7 jours d’essai gratuit</small>",
+ "k081": "Moins d’un dollar. <em>Plus qu’un scanner !</em>",
+ "k082": "Ton café refroidit, Pro dure 30 jours. <em>0,99 $ par mois : moins qu’un café au bistrot !</em><small>renouvelé chaque mois jusqu’à résiliation</small>",
+ "k083": "Un menu burger dure un repas, Pro toute l’année. <em>7,99 $ par an : moins qu’un menu burger moyen !</em><small>environ 0,67 $ par mois · 7 jours d’essai gratuit, puis facturé chaque année sauf résiliation</small>",
  "k084": "Les prix ? De quoi sourire !",
  "k085": "Commencez gratuitement ; passez à Pro quand vous voulez, résiliez quand vous voulez.",
  "k086": "Gratuit",
@@ -109,7 +108,7 @@
  "k092": "LE PRÉFÉRÉ",
  "k093": "Pro · Annuel",
  "k094": "7,99 $<small>/an</small>",
- "k095": "Une année entière de Pro illimité — <b>moins cher qu’un burger !</b><br>≈ 0,67 $ par mois · <b>7 jours d’essai gratuit</b>",
+ "k095": "Une année entière de Pro illimité<br>≈ 0,67 $ par mois · <b>7 jours d’essai gratuit</b>, puis 7,99 $ par an sauf résiliation",
  "k096": "Tout le gratuit",
  "k097": "PDF sans la marque mScanner",
  "k098": "Prêt à imprimer, toner, livre et ombres",
@@ -117,11 +116,11 @@
  "k100": "Signature, tampon, filigrane, traitement par lot",
  "k101": "Pro · Mensuel",
  "k102": "0,99 $<small>/mois</small>",
- "k103": "Un mois entier de Pro illimité — <b>pour le prix d’une bouteille d’eau !</b> Résiliable à tout moment.",
+ "k103": "Un mois entier de Pro illimité. Renouvelé chaque mois jusqu’à résiliation ; résiliable à tout moment.",
  "k104": "Tout Pro",
  "k105": "Liberté mois par mois",
  "k106": "Paiement sécurisé via Google Play",
- "k107": "Prix aux États-Unis : 0,99 $ par mois, 7,99 $ par an. Dans les autres pays, Google Play affiche le prix local taxes comprises. L’abonnement se renouvelle à chaque période jusqu’à résiliation ; résiliez quand vous voulez dans Google Play › Abonnements et Pro reste actif jusqu’à la fin de la période payée.",
+ "k107": "Prix aux États-Unis : 0,99 $ par mois, 7,99 $ par an. Dans les autres pays, le store affiche le prix local taxes comprises ; le prix de l’écran d’achat fait foi. L’essai gratuit de 7 jours du forfait annuel devient un abonnement annuel payant s’il n’est pas résilié au moins 24 heures avant sa fin. L’abonnement se renouvelle à chaque période jusqu’à résiliation ; résiliez quand vous voulez dans Google Play › Abonnements ou App Store › Abonnements et Pro reste actif jusqu’à la fin de la période payée. Détails : <a href=\"subscription.html\">Informations sur l’abonnement</a>. Les comparaisons reposent sur des prix américains typiques de 2026 pour un café au bistrot et un menu burger de restauration rapide.",
  "k108": "Questions et réponses",
  "k109": "Faut-il un compte ?",
  "k110": "Non. Ouvrez l’app et scannez.",
@@ -135,7 +134,6 @@
  "k118": "Elle arrive ! Bientôt sur l’App Store.",
  "k119": "J’ai un problème — à qui écrire ?",
  "k120": "Écrivez à <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Réglages › Nous écrire dans l’app y mène aussi.",
- "k121": "Bientôt",
  "k122": "Personnages et illustrations originaux de mScanner.",
  "k123": "Bientôt",
  "k124": "Bientôt",
@@ -178,6 +176,7 @@
  "k177": "Envoyez le PDF dans un dossier cloud via Partager, ou par e-mail vers votre ordinateur.",
  "k178": "Archives",
  "k179": "Tickets, garanties, papiers médicaux : sur votre téléphone ou tablette, dans un dossier à PIN si vous voulez.",
+ "k180": "Prix aux États-Unis : 0,99 $ par mois · les prix varient selon le pays",
  "ticker": "<span>✦ SCANNEZ</span><span>✦ RECADREZ</span><span>✦ AMÉLIOREZ</span><span>✦ PDF</span><span>✦ PARTAGEZ</span><span>✦ OCR</span><span>✦ 34 LANGUES</span><span>✦ SANS PUB</span><span>✦ SCANNEZ</span><span>✦ RECADREZ</span><span>✦ AMÉLIOREZ</span><span>✦ PDF</span><span>✦ PARTAGEZ</span><span>✦ OCR</span><span>✦ 34 LANGUES</span><span>✦ SANS PUB</span>",
  "_badge": {
   "soon": "Bientôt",
@@ -186,5 +185,6 @@
  "_meta": {
   "title": "mScanner — Le scanner miracle de poche",
   "description": "Scannez, recadrez, améliorez et transformez vos documents en PDF. Sans compte, sans pub, tout reste sur votre téléphone. Pro à moins de 1 $ par mois."
- }
+ },
+ "_play": "Disponible sur Google Play"
 }

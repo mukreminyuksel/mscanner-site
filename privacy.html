@@ -6,16 +6,16 @@
 @media (prefers-color-scheme: dark){:root{--bg:#0B1220;--fg:#E2E8F0;--muted:#94A3B8;--accent:#38BDF8;--card:#111A2E;--line:#1E2A44}}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif}
 main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
-nav a{color:var(--accent);margin-right:14px;text-decoration:none;font-weight:600}
+nav{display:flex;flex-wrap:wrap;gap:4px 14px}nav a{color:var(--accent);text-decoration:none;font-weight:600}
 h1{font-size:28px;margin:18px 0 6px}h2{font-size:20px;margin-top:28px}
 a{color:var(--accent)}code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:0 4px}
 li{margin:4px 0}
 </style></head>
-<body><main><nav><a href="index.html">mScanner</a><a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a><a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a><a href="silme.html">Veri silme</a><a href="data-deletion.html">Data deletion</a></nav>
+<body><main><nav><a href="index.html">mScanner</a><a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a><a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a><a href="silme.html">Veri silme</a><a href="data-deletion.html">Data deletion</a><a href="abonelik.html">Abonelik</a><a href="subscription.html">Subscription</a><a href="iletisim.html">İletişim</a><a href="contact.html">Contact</a></nav>
 <h1>mScanner Privacy Policy</h1>
-<p>Last updated: 23 October 2026 · App version 2.31 and later</p>
+<p>Last updated: 30 October 2026 · App version 2.31 and later</p>
 <p>mScanner (“the app”) is a document scanner developed by MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ. This policy explains what information the app processes and how.</p>
-<p><strong>Data controller:</strong> MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ · ATATÜRK MAH. FEVZİ PAŞA CADDESİ, BÜYÜK ÇARŞI NO 35, KAT 3, NO:316, MERKEZ, ERZİNCAN 24050, TÜRKİYE · info@mscanner.com.tr</p>
+<p><strong>Data controller:</strong> MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ · ATATÜRK MAH. FEVZİ PAŞA CADDESİ, BÜYÜK ÇARŞI NO 35, KAT 3, NO:316, MERKEZ, ERZİNCAN 24050, TÜRKİYE · info@mscanner.com.tr · MERSİS 0627135184200001 · Erzincan Trade Registry no. 10080</p>
 <h2>In short</h2>
 <ul>
 <li>Your documents are processed and stored <strong>on your device</strong>. We run no server; your documents are never sent to us.</li>
@@ -44,19 +44,56 @@ li{margin:4px 0}
 <p>On the “OCR &amp; Mobile AI” screen the document text and a prompt prepared for the task you choose are copied to the clipboard, and the AI app installed on your phone that you pick (e.g. ChatGPT, Gemini, Claude) is opened. Pasting, sending and bringing the answer back is up to you; that app's own terms and privacy policy apply. mScanner itself sends no data to any AI server and asks for no API key. Any API key or permission stored by an older version is deleted from the device at launch.</p>
 <p><strong>The phone's own AI:</strong> If your phone has an on-device language model (Apple Intelligence on iOS 26 and later; Gemini Nano through Google's AICore service on some Android phones), the prompt runs on that model <strong>on the phone</strong> and the text does not leave it. On iOS only the on-device model is used, never Apple's server side (Private Cloud Compute). On Android the model may be downloaded by the system on first use, and Google may collect technical metrics to operate the service (<a href="https://developers.google.com/ml-kit/android-data-disclosure">Google ML Kit data disclosure</a>).</p>
 <h2>5. Subscriptions and purchases</h2>
-<p>If you buy mScanner Pro, payment is processed by the Apple App Store or Google Play; your card details never reach us. We use RevenueCat, Inc. to verify subscription status. RevenueCat processes an automatically generated anonymous app user ID and purchase history (product, transaction, date, store) (<a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>). We do not ask for your name or email.</p>
+<p>If you buy mScanner Pro, payment is processed by the Apple App Store or Google Play; your card details never reach us. We use RevenueCat, Inc. to verify subscription status. RevenueCat processes an automatically generated pseudonymous app user ID that does not contain your name and purchase history (product, transaction, date, store) (<a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>). We do not ask for your name or email.</p>
 <h2>6. What we do not share</h2>
-<p>We do not sell your personal data or use it for advertising or profiling. We do not share it with third parties other than the service providers named above, except where the law requires (and since no documents are on our servers, we hold no document content to disclose).</p>
+<p>We do not sell your personal data, and we do not use it or share it with anyone for advertising, targeted advertising or profiling (there is no “sale” or “sharing” within the meaning of US state privacy laws). We do not transfer it to third parties other than the service providers named above, except where the law requires (and since no documents are on our servers, we hold no document content to disclose).</p>
 <h2>7. Retention and deletion</h2>
 <ul>
-<li>Delete a document in the app, or uninstall the app to remove all app data from the device.</li>
-<li>Subscription: manage or cancel in your store account settings. You can ask for RevenueCat's purchase record to be deleted at info@mscanner.com.tr.</li>
-<li>Detailed deletion steps, records that are not deleted and why: https://mscanner.com.tr/data-deletion.html</li>
+<li><strong>Documents on your device:</strong> stay on your device until you delete them or uninstall the app; they never reach us.</li>
+<li><strong>Subscription records (RevenueCat):</strong> kept while the subscription is active and for at most 3 years after it ends, then deleted; deleted earlier if you ask.</li>
+<li><strong>The stores' payment and sales reports</strong> (order number, product, amount, country; no name or card details): kept for 10 years as required by Turkish commercial and tax law (Law No. 6563 Art. 11, Turkish Commercial Code Art. 82, Tax Procedure Law Art. 253).</li>
+<li><strong>Support emails:</strong> kept for at most 3 years after the request is closed.</li>
+<li><strong>Website logs:</strong> subject to GitHub's own retention policy.</li>
+<li>The subscription is managed or cancelled in your store account settings. Detailed deletion steps, records that are not deleted and why: https://mscanner.com.tr/data-deletion.html</li>
 </ul>
 <h2>8. Children</h2>
 <p>The app is not directed at children under 13 and does not knowingly collect personal data from children.</p>
-<h2>9. Your rights</h2>
-<p>Depending on where you live (e.g. GDPR), you have rights to access, correct, delete and object. Because your documents are only on your device, you can exercise most of these directly in the app; for anything else contact info@mscanner.com.tr.</p>
-<h2>10. Changes and contact</h2>
-<p>If this policy changes we publish the current version at this address and update the “Last updated” date. Questions: info@mscanner.com.tr, MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ, ATATÜRK MAH. FEVZİ PAŞA CADDESİ, BÜYÜK ÇARŞI NO 35, KAT 3, NO:316, MERKEZ, ERZİNCAN 24050, TÜRKİYE.</p>
+<h2>9. Notice under Turkish law (KVKK) and your rights</h2>
+<p>This section is our notice as data controller under Article 10 of the Turkish Personal Data Protection Law No. 6698 (KVKK).</p>
+<ul>
+<li><strong>Personal data we process:</strong> Your documents never reach us, so we do not process them. We process only: if you buy a subscription, the pseudonymous app user ID and purchase records in RevenueCat (product, transaction/order number, date, store, store country); if you email us, your email address and the content of the correspondence; if you visit our website, the technical logs kept by the hosting provider (section 11).</li>
+<li><strong>Purposes and legal bases:</strong></li>
+<li>Verifying the subscription, unlocking Pro and handling termination and refund requests: establishing and performing a contract (KVKK Art. 5/2-c).</li>
+<li>Keeping commercial and tax records: legal obligation (Art. 5/2-ç).</li>
+<li>Establishing, exercising or defending a right (e.g. disputes): Art. 5/2-e.</li>
+<li>Questions, support and complaints, and serving the website securely: our legitimate interest, provided it does not harm your fundamental rights and freedoms (Art. 5/2-f).</li>
+<li>No processing relies on explicit consent.</li>
+<li><strong>How it is collected:</strong> automatically (electronically) through the app and the store; when you send an email; through server logs when you visit the website.</li>
+<li><strong>Recipients and transfers abroad:</strong> Data is shared only with these service providers and only for the purposes above: RevenueCat, Inc. (USA; subscription verification, processor), Zoho (email; EU data centre, processor), GitHub, Inc. (USA; website hosting). Apple and Google are separate controllers that handle the purchase through your own account. Their servers are outside Türkiye, so this data is transferred abroad.</li>
+<li><strong>Automated decisions:</strong> no decision about you is based solely on automated processing, and no profiling takes place.</li>
+<li><strong>Your rights (KVKK Art. 11):</strong> to learn whether your personal data is processed; to request information if it is; to learn the purpose and whether it is used accordingly; to know the third parties it is transferred to in Türkiye or abroad; to request correction if it is incomplete or wrong; to request erasure or destruction under KVKK Art. 7; to request that corrections and erasures be notified to those third parties; to object to an outcome against you that results solely from automated analysis; and to claim compensation for damage caused by unlawful processing.</li>
+<li><strong>How to apply:</strong> Send your application in Turkish (a) as a signed letter to our company address, or (b) signed with a secure electronic signature or mobile signature to info@mscanner.com.tr. It should include your name, your signature for a written application, your Turkish ID number (or nationality and passport number if you are a foreign national), your address for notifications, your email or phone if any, and your request. For simple requests, such as deleting the RevenueCat record, an email with your order number or the <strong>Settings › Support ID</strong> shown in the app is enough.</li>
+<li><strong>Response time and complaints:</strong> Applications are answered within 30 days at the latest, as a rule free of charge (KVKK Art. 13). If your application is rejected, you find the answer insufficient or it is not answered in time, you can complain to the Personal Data Protection Board within 30 days of learning the answer and in any case within 60 days of your application (KVKK Art. 14).</li>
+</ul>
+<p>Because your documents are only on your device, you can exercise most of these rights directly in the app.</p>
+<h2>10. Users in the European Union, the United Kingdom and Switzerland</h2>
+<p>If you are in the EU/EEA, the United Kingdom or Switzerland, the GDPR, the UK GDPR and the Swiss Federal Act on Data Protection (FADP) also apply to your data:</p>
+<ul>
+<li><strong>Legal bases:</strong> verifying, restoring and supporting your subscription — performance of a contract (GDPR Art. 6(1)(b)); tax and commercial records — legal obligation (Art. 6(1)(c)); answering emails not about a purchase, website security and establishing or defending legal claims — our legitimate interests (Art. 6(1)(f)).</li>
+<li><strong>Transfers:</strong> we are established in Türkiye. RevenueCat, Inc. (USA) works under our data processing agreement, which incorporates the European Commission's Standard Contractual Clauses, the UK Addendum and Swiss amendments. Zoho keeps our email in its EU data centre. GitHub, Inc. (USA) hosts our website under its own responsibility and participates in the EU-U.S. Data Privacy Framework, its UK Extension and the Swiss-U.S. Data Privacy Framework. Countries concerned: USA, EU member states and Türkiye.</li>
+<li><strong>Your rights:</strong> access, rectification, erasure, restriction of processing, data portability and objection to processing based on legitimate interests (GDPR Arts. 15–21). We acknowledge complaints within 30 days and answer within one month.</li>
+<li><strong>Complaints to a supervisory authority:</strong> you can complain, in particular, to the data protection authority in the EU country where you live or work (list: https://www.edpb.europa.eu/about-edpb/about-edpb/members_en), in the UK to the ICO (ico.org.uk) and in Switzerland to the FDPIC (edoeb.admin.ch).</li>
+<li>Purchase data is necessary to provide mScanner Pro; without it Pro cannot be unlocked. We do not carry out automated decision-making or profiling. We have not appointed a data protection officer, as we are not required to.</li>
+</ul>
+<h2>11. Website</h2>
+<p>mscanner.com.tr is hosted on GitHub Pages (GitHub, Inc., USA). When you open the site your browser connects to GitHub's servers; GitHub may keep technical logs such as IP address, date/time and browser details for security and operation (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>). The site has no cookies, analytics, ads, or fonts or scripts loaded from other servers; fonts are served by the site itself. The language you pick is stored only in your browser (localStorage) and is not sent to us, so no cookie consent is asked.</p>
+<h2>12. Security</h2>
+<p>Communication with service providers uses encrypted connections (HTTPS/TLS). Access to subscription records and support emails is limited to the company's authorised person. Because your documents never reach us, there is no risk of a document leak on our side; security on your device depends on your device lock and the operating system's protection.</p>
+<h2>13. Changes, version history and contact</h2>
+<ul>
+<li>If this policy changes we publish the current version at this address and update the “Last updated” date.</li>
+<li><strong>30 October 2026:</strong> added the KVKK notice, application channels, retention periods, the EU/UK/Switzerland section and the website section.</li>
+<li><strong>23 October 2026:</strong> first published version.</li>
+<li>Questions: info@mscanner.com.tr, +90 535 747 61 99, MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ, ATATÜRK MAH. FEVZİ PAŞA CADDESİ, BÜYÜK ÇARŞI NO 35, KAT 3, NO:316, MERKEZ, ERZİNCAN 24050, TÜRKİYE. Other contact details: https://mscanner.com.tr/contact.html</li>
+</ul>
 </main></body></html>

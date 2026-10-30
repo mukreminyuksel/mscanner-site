@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>mScanner — Cebindeki mucize tarayıcı · The miracle scanner in your pocket</title>
-<meta name="description" content="mScanner: belgeleri tara, kırp, düzelt, PDF yap. Hesap yok, reklam yok, belgeler telefonunda kalır. Pro ayda 1 dolardan az. · Scan, crop, fix and PDF your documents. No account, no ads, documents stay on your phone. Pro is under $1 a month.">
+<meta name="description" content="mScanner: belgeleri tara, kırp, düzelt, PDF yap. Hesap yok, reklam yok, belgeler telefonunda kalır. · Scan, crop, fix and PDF your documents. No account, no ads, documents stay on your phone.">
 <meta name="theme-color" content="#E63946">
 <meta property="og:title" content="mScanner — Cebindeki mucize tarayıcı">
-<meta property="og:description" content="Tara, kırp, düzelt, PDF yap. Belgelerin telefonunda kalır. Pro ayda 1 dolardan az!">
+<meta property="og:description" content="Tara, kırp, düzelt, PDF yap. Belgelerin telefonunda kalır.">
 <meta property="og:image" content="https://mscanner.com.tr/img/og.png">
 <meta property="og:url" content="https://mscanner.com.tr/">
 <link rel="icon" type="image/png" href="img/favicon.png">
@@ -64,8 +64,12 @@ a{color:inherit}
 .badge svg{flex:0 0 auto}
 .badge span{text-align:start}
 .badge small{display:block;font:800 13px Nunito,sans-serif;letter-spacing:.04em;opacity:.85;line-height:1.2}
-.badge b{display:block;font-family:var(--comic);font-weight:400;font-size:29px;letter-spacing:.04em;line-height:1}
+.badge b{display:block;font:800 24px/1.1 Nunito,sans-serif;letter-spacing:0}
 .badges-center{justify-content:center}
+/* v3.14: Google's own localized badge, used as supplied (no border, shadow or recolouring) */
+.badge-play{display:inline-flex;border-radius:12px;transition:transform .15s}
+.badge-play:hover{transform:translate(-2px,-2px)}
+.badge-play img{display:block;height:68px;width:auto}
 .btn small{font-family:Nunito,sans-serif;font-size:13px;letter-spacing:0;font-weight:800;opacity:.85}
 
 .devsw{display:inline-flex;gap:0;margin:6px auto 26px;border:4px solid var(--ink);border-radius:999px;background:var(--white);box-shadow:4px 4px 0 var(--ink);overflow:hidden}
@@ -92,7 +96,7 @@ a{color:inherit}
 .top{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:4px solid var(--ink)}
 .top .wrap{display:flex;align-items:center;gap:14px;height:66px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-.brand img{width:40px;height:40px;border-radius:10px;border:3px solid var(--ink)}
+.brand img{display:block;width:44px;height:44px}
 .logo{font:800 27px/1 Nunito,system-ui,sans-serif;letter-spacing:-.02em;color:#0F172A}
 .logo b{color:#0284C7;font-weight:800;font-size:1.1em}
 footer .logo{color:var(--paper)}footer .logo b{color:#38BDF8}
@@ -221,9 +225,10 @@ section{padding:74px 0}
 .shout h2{font-family:var(--comic);font-weight:400;font-size:clamp(44px,11vw,120px);overflow-wrap:anywhere;line-height:.9;margin:0;color:var(--white);-webkit-text-stroke:4px var(--ink);text-shadow:7px 7px 0 var(--ink);paint-order:stroke fill;transform:rotate(-2deg)}
 .shout h2 em{font-style:normal;color:var(--mustard)}
 .slogans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:980px;margin:30px auto 0}
-.slog{background:var(--white);border:4px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);padding:18px 20px;font-family:var(--comic);font-size:clamp(24px,3vw,34px);line-height:1.05;letter-spacing:.03em;color:var(--ink)}
+.slog{display:flex;align-items:center;gap:16px;text-align:start;background:var(--white);border:4px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);padding:18px 20px;font-family:var(--comic);font-size:clamp(22px,2.6vw,30px);line-height:1.05;letter-spacing:.03em;color:var(--ink)}
 .slog:nth-child(1){transform:rotate(-1.5deg)}.slog:nth-child(2){transform:rotate(1.5deg)}
-.slog em{font-style:normal;color:var(--red)}
+.slog-art{flex:0 0 auto;width:clamp(84px,10vw,128px);height:auto}
+.slog em{display:block;margin-top:8px;font-style:normal;color:var(--red)}
 .slog small{display:block;margin-top:10px;font:800 15px Nunito,sans-serif;letter-spacing:0;color:var(--ink);opacity:.85}
 @media(max-width:760px){.slogans{grid-template-columns:minmax(0,1fr)}}
 .shout p{font-weight:800;font-size:20px;margin:18px auto 0;max-width:640px;color:#fff;text-shadow:2px 2px 0 var(--ink)}
@@ -341,8 +346,8 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       </p>
       <div class="cta">
         <div class="badges">
-          <a class="badge" href="#nasil" data-store="play"><svg width="30" height="32" viewBox="0 0 26 28" aria-hidden="true"><path d="M2 1.5 15 14 2 26.5c-.6-.3-1-1-1-1.8V3.3c0-.8.4-1.5 1-1.8Z" fill="#7FE0C9"/><path d="m19.3 9.8-3.4 3.3L19.3 16.5l4.1-2.3c1.2-.7 1.2-2.4 0-3.1Z" fill="#FFD84A"/><path d="M15 14 2 1.5c.4-.2 1-.2 1.5.1l15.8 8.2Z" fill="#5BC0F8"/><path d="M15 14 2 26.5c.4.2 1 .2 1.5-.1l15.8-8.2Z" fill="#FF8B94"/></svg><span><small data-i18n="k008">Çok yakında</small><b>Google Play</b></span></a>
-          <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="32" viewBox="0 0 24 28" aria-hidden="true" fill="#fff"><path d="M16.6.2c.2 1.6-.4 3.1-1.3 4.2-.9 1.1-2.4 1.9-3.8 1.8-.2-1.5.5-3.1 1.4-4.1C13.9 1 15.4.3 16.6.2Z"/><path d="M20.1 15c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.2-2.3-1.8-.2-3.5 1-4.4 1-.9 0-2.3-1-3.8-1-1.9 0-3.7 1.1-4.7 2.9-2 3.5-.5 8.7 1.4 11.6 1 1.4 2.1 3 3.6 2.9 1.4-.1 2-.9 3.7-.9s2.2.9 3.7.9c1.5 0 2.5-1.4 3.5-2.8 1.1-1.6 1.5-3.2 1.6-3.3-.1 0-2.9-1.1-2.9-4.5Z"/></svg><span><small data-i18n="k123">Çok yakında</small><b>App Store</b></span></a>
+          <a class="badge-play" href="https://play.google.com/store/apps/details?id=com.my.mscanner" data-store="play"><img data-play-badge src="img/badges/google-play-tr.png" width="646" height="192" alt="Google Play'den indirin"></a>
+          <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span><small data-i18n="k123">Çok yakında</small><b>App Store</b></span></a>
         </div>
         <a class="btn btn-cream" href="#adim"><span data-i18n="k009">Nasıl çalışır?</span></a>
       </div>
@@ -384,7 +389,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
           <path d="M188 300c8-20 30-30 44-18 10 9 4 26-10 34-16 9-38 4-34-16Z" fill="#F7C9A3"/>
         </g>
       </svg>
-      <div class="burst" role="img" aria-label="Pro: ayda 1 dolardan az / under $1 a month">
+      <div class="burst" role="img" aria-label="Pro: ayda 36,99 ₺ / $0.99 a month in the US">
         <svg viewBox="0 0 200 200" aria-hidden="true"><polygon fill="#F4B42C" stroke="#1B1B1F" stroke-width="5" stroke-linejoin="round" points="100,4 116,40 152,16 148,56 192,52 164,84 198,108 158,118 178,156 138,148 132,192 104,164 76,196 68,154 26,170 44,132 4,112 40,92 12,56 54,60 50,18 86,42"/></svg>
         <div><i data-i18n="k015">Pro sadece</i><b data-i18n="k016">36,99₺</b><i data-i18n="k017">ayda! <small style="display:block;font-size:15px;margin-top:2px">(ABD'de $0,99)</small></i></div>
       </div>
@@ -692,10 +697,12 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
 <!-- ============ SHOUT ============ -->
 <section class="shout dots-red">
   <div class="wrap reveal">
-    <h2 data-i18n="k081">Ayda 1 dolardan <em>az!</em></h2>
+    <h2 data-i18n="k081">1 dolardan az, <em>tarayıcıdan fazla!</em></h2>
+    <p data-i18n="k180">Türkiye'de ayda 36,99 ₺ ≈ 0,74 $ · TCMB kuru, 30 Ekim 2026</p>
+    <!-- v3.14: comparisons hold with dated prices (see the price footnote); own drawings, no brands -->
     <div class="slogans">
-      <div class="slog"><span data-i18n="k082">1 ay boyunca sınırsız Pro — <em>sadece bir pet şişe su fiyatına!</em><small>36,99 ₺ / ay · ABD'de $0,99</small></span></div>
-      <div class="slog"><span data-i18n="k083">1 yıl boyunca sınırsız Pro — <em>bir hamburgerden daha ucuz!</em><small>349 ₺ / yıl · ABD'de $7,99 · 7 gün ücretsiz dene</small></span></div>
+      <div class="slog"><svg class="slog-art" viewBox="0 0 120 120" aria-hidden="true" fill="none" stroke="#1B1B1F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M44 34c-7-7 7-11 0-19M60 31c-7-7 7-11 0-19M76 34c-7-7 7-11 0-19" stroke-width="4"/><ellipse cx="60" cy="104" rx="48" ry="9" fill="#FFFDF7"/><path d="M96 58c15 0 17 24-2 26"/><path d="M22 46h76v16c0 22-16 38-38 38S22 84 22 62Z" fill="#FFFDF7"/><path d="M24 60h72" stroke="#E63946" stroke-width="7" stroke-linecap="butt"/><ellipse cx="60" cy="46" rx="38" ry="8" fill="#7A4A2A"/></svg><span data-i18n="k082">Kahven soğur, Pro 30 gün sürer. <em>Ayda 36,99 ₺: kafede bir kahveden ucuz!</em><small>KDV dahil · iptal edilene kadar her ay yenilenir</small></span></div>
+      <div class="slog"><svg class="slog-art" viewBox="0 0 120 120" aria-hidden="true" stroke="#1B1B1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M98 40l6-26" stroke-width="5" fill="none"/><path d="M80 46h30l-5 58H85Z" fill="#FFFDF7"/><rect x="77" y="40" width="36" height="8" rx="3" fill="#E63946"/><path d="M14 38l3 26M22 34l2 30M30 36l1 28M38 34l-1 30M45 39l-3 25" stroke-width="9" fill="none"/><path d="M14 38l3 26M22 34l2 30M30 36l1 28M38 34l-1 30M45 39l-3 25" stroke="#F4B42C" stroke-width="4" fill="none"/><path d="M8 58h40l-5 46H13Z" fill="#1D3557"/><path d="M24 104h72v2c0 5-4 8-9 8H33c-5 0-9-3-9-8Z" fill="#E9A23B"/><rect x="22" y="94" width="76" height="10" rx="5" fill="#6B3E26"/><path d="M22 90h76v4H72l-6 7-6-7H22Z" fill="#FFD54F"/><path d="M20 84q6-6 12 0t12 0 12 0 12 0 12 0 12 0 12 0v6H20Z" fill="#7BC67E"/><path d="M24 82c0-16 16-24 36-24s36 8 36 24Z" fill="#E9A23B"/><path d="M46 68l4-1M58 64l4-1M70 67l4 1" stroke="#FFFDF7" stroke-width="3" fill="none"/></svg><span data-i18n="k083">Menü bir öğünde biter, Pro bir yıl sürer. <em>Yılda 349 ₺: çoğu hamburger menüsünden ucuz!</em><small>KDV dahil, ayda yaklaşık 29 ₺ (App Store'da 349,99 ₺) · iptal edilene kadar her yıl yenilenir</small></span></div>
     </div>
   </div>
 </section>
@@ -724,7 +731,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
         <h3><span data-i18n="k093">Pro · Yıllık</span></h3>
         <div class="amount"><span data-i18n="k094">349<small>₺/yıl</small></span></div>
         <div class="usd" data-only="tr">ABD'de $7,99/yıl</div>
-        <div class="sub"><span data-i18n="k095">1 yıl boyunca sınırsız Pro — <b>bir hamburgerden daha ucuz!</b><br>Ayda ~29 ₺ · <b>7 gün ücretsiz dene</b></span></div>
+        <div class="sub"><span data-i18n="k095">1 yıl boyunca sınırsız Pro<br>Ayda ~29 ₺ · iptal edilene kadar her yıl yenilenir</span></div>
         <ul>
           <li><span data-i18n="k096">Ücretsizdeki her şey</span></li>
           <li><span data-i18n="k097">İşaretsiz PDF</span></li>
@@ -737,7 +744,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
         <h3><span data-i18n="k101">Pro · Aylık</span></h3>
         <div class="amount"><span data-i18n="k102">36,99<small>₺/ay</small></span></div>
         <div class="usd" data-only="tr">ABD'de $0,99/ay</div>
-        <div class="sub"><span data-i18n="k103">1 ay boyunca sınırsız Pro — <b>sadece bir pet şişe su fiyatına!</b> İstediğin an iptal.</span></div>
+        <div class="sub"><span data-i18n="k103">1 ay boyunca sınırsız Pro. İptal edene kadar her ay yenilenir; istediğin an iptal edebilirsin.</span></div>
         <ul>
           <li><span data-i18n="k104">Pro'nun tamamı</span></li>
           <li><span data-i18n="k105">Aylık esneklik</span></li>
@@ -746,7 +753,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       </div>
     </div>
     <p class="fine">
-      <span data-i18n="k107">Türkiye fiyatları; ABD'de aylık $0,99, yıllık $7,99. Diğer ülkelerde yerel fiyat Google Play'de gösterilir, vergiler dahildir. Abonelik iptal edilene kadar her dönem otomatik yenilenir; Google Play › Abonelikler'den istediğin an iptal edebilirsin, Pro ödenmiş dönemin sonuna kadar açık kalır.</span>
+      <span data-i18n="k107">Türkiye fiyatları, KDV dahil (App Store'da yıllık 349,99 ₺); ABD'de aylık $0,99, yıllık $7,99. Diğer ülkelerde yerel fiyat mağazada vergiler dahil gösterilir; geçerli fiyat satın alma ekranındaki fiyattır. 1 dolar kıyası: 30 Ekim 2026 TCMB döviz satış kuruyla (1 $ = 49,86 ₺) aylık 36,99 ₺ ≈ 0,74 $, yıllıkta ayda ≈ 0,58 $. Kıyaslar Ekim 2026 Türkiye fiyatlarına dayanır: kafede bir fincan kahve genellikle 110–200 ₺, büyük zincirlerde standart hamburger menüleri 369–480 ₺. Türkiye'de ücretsiz deneme sunulmaz. Abonelik iptal edilene kadar her dönem otomatik yenilenir; Google Play › Abonelikler'den ya da App Store › Abonelikler'den istediğin an iptal edebilirsin, Pro ödenmiş dönemin sonuna kadar açık kalır. Hemen sona erdirip kalan sürenin bedelini de geri isteyebilirsin. Dijital hizmet anında ifa edildiğinden cayma hakkı yoktur; ayrıntılar: <a href="abonelik.html">Abonelik bilgileri</a>.</span>
     </p>
   </div>
 </section>
@@ -765,8 +772,8 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
     </div>
     <div style="text-align:center;margin-top:36px" class="reveal">
       <div class="badges badges-center">
-        <a class="badge" href="#nasil" data-store="play"><svg width="30" height="32" viewBox="0 0 26 28" aria-hidden="true"><path d="M2 1.5 15 14 2 26.5c-.6-.3-1-1-1-1.8V3.3c0-.8.4-1.5 1-1.8Z" fill="#7FE0C9"/><path d="m19.3 9.8-3.4 3.3L19.3 16.5l4.1-2.3c1.2-.7 1.2-2.4 0-3.1Z" fill="#FFD84A"/><path d="M15 14 2 1.5c.4-.2 1-.2 1.5.1l15.8 8.2Z" fill="#5BC0F8"/><path d="M15 14 2 26.5c.4.2 1 .2 1.5-.1l15.8-8.2Z" fill="#FF8B94"/></svg><span><small data-i18n="k121">Çok yakında</small><b>Google Play</b></span></a>
-        <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="32" viewBox="0 0 24 28" aria-hidden="true" fill="#fff"><path d="M16.6.2c.2 1.6-.4 3.1-1.3 4.2-.9 1.1-2.4 1.9-3.8 1.8-.2-1.5.5-3.1 1.4-4.1C13.9 1 15.4.3 16.6.2Z"/><path d="M20.1 15c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.2-2.3-1.8-.2-3.5 1-4.4 1-.9 0-2.3-1-3.8-1-1.9 0-3.7 1.1-4.7 2.9-2 3.5-.5 8.7 1.4 11.6 1 1.4 2.1 3 3.6 2.9 1.4-.1 2-.9 3.7-.9s2.2.9 3.7.9c1.5 0 2.5-1.4 3.5-2.8 1.1-1.6 1.5-3.2 1.6-3.3-.1 0-2.9-1.1-2.9-4.5Z"/></svg><span><small data-i18n="k124">Çok yakında</small><b>App Store</b></span></a>
+        <a class="badge-play" href="https://play.google.com/store/apps/details?id=com.my.mscanner" data-store="play"><img data-play-badge src="img/badges/google-play-tr.png" width="646" height="192" alt="Google Play'den indirin" loading="lazy"></a>
+        <a class="badge" href="#nasil" data-store="apple"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span><small data-i18n="k124">Çok yakında</small><b>App Store</b></span></a>
       </div>
     </div>
   </div>
@@ -778,13 +785,17 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
     <div>
       <div class="logo" style="font-size:30px"><b>m</b>Scanner</div>
       <p style="margin:6px 0"><a href="mailto:info@mscanner.com.tr">info@mscanner.com.tr</a></p>
+      <p class="company" style="margin:6px 0;font-size:12px;opacity:.75;max-width:380px">MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ<br>ATATÜRK MAH. FEVZİ PAŞA CADDESİ, BÜYÜK ÇARŞI NO 35, KAT 3, NO:316, MERKEZ, ERZİNCAN 24050, TÜRKİYE<br>MERSİS 0627135184200001 · Erzincan Ticaret Sicili 10080<br>Tel: +90 535 747 61 99</p>
     </div>
     <div class="links">
       <a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a>
       <a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a>
       <a href="silme.html">Veri silme</a><a href="data-deletion.html">Data deletion</a>
+      <a href="iletisim.html">İletişim</a><a href="contact.html">Contact</a>
+      <a href="abonelik.html">Abonelik bilgileri</a><a href="subscription.html">Subscription info</a>
+      <a href="tokusho.html" lang="ja">特定商取引法に基づく表記</a>
       <a href="kullanim.html">Kullanım rehberi</a><a href="kullanim.html">User guide</a>
-      <span style="opacity:.7;width:100%;text-align:inherit">© 2026 MY İşletme Danışmanlık Ltd. Şti. · <span data-i18n="k122">Karakterler ve çizimler mScanner'a özgüdür.</span> Google Play, Google LLC'nin; Apple ve App Store, Apple Inc.'in ticari markalarıdır / Google Play is a trademark of Google LLC; Apple and App Store are trademarks of Apple Inc.</span>
+      <span style="opacity:.7;width:100%;text-align:inherit">© 2026 MY İşletme Danışmanlık Ltd. Şti. · <span data-i18n="k122">Karakterler ve çizimler mScanner'a özgüdür.</span> Google Play ve Google Play logosu, Google LLC'nin ticari markalarıdır. App Store, Apple Inc.'in ABD'de ve diğer ülke ve bölgelerde tescilli hizmet markasıdır. / Google Play and the Google Play logo are trademarks of Google LLC. App Store is a service mark of Apple Inc., registered in the U.S. and other countries and regions.</span>
     </div>
   </div>
 </footer>
@@ -795,6 +806,8 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
   const root = document.documentElement, sel = document.getElementById('lang');
   const nodes = [...document.querySelectorAll('[data-i18n]')];
   const original = new Map(nodes.map(n => [n, n.innerHTML]));
+  // v3.14: Google's official Play badge in the page language (img/badges/google-play-<lang>.png, alt from _play).
+  const badges = [...document.querySelectorAll('img[data-play-badge]')], playAlt = badges[0]?.alt;
   const meta = document.querySelector('meta[name=description]');
   const base = { title: document.title, description: meta.content };
   const cache = {};
@@ -810,6 +823,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:flex-end
       catch { if (lang !== 'en') return apply('en'); return; }
     }
     nodes.forEach(n => { n.innerHTML = dict ? (dict[n.dataset.i18n] ?? original.get(n)) : original.get(n); });
+    badges.forEach(img => { img.src = 'img/badges/google-play-' + lang + '.png'; img.alt = dict?._play || playAlt; });
     document.title = dict?._meta?.title || base.title;
     meta.content = dict?._meta?.description || base.description;
     root.lang = lang; root.dataset.lang = lang; root.dir = lang === 'ar' ? 'rtl' : 'ltr';

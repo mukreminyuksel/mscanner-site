@@ -6,7 +6,6 @@
  "k005": "Novidade! Um milagre de bolso!",
  "k006": "Adeus,<br><span class=\"line2\">pilhas de papel!</span>",
  "k007": "Seu celular agora é um scanner de escritório — e o seu tablet também! <b>Digitalize, recorte, melhore e crie PDFs</b> — notinhas, faturas, contratos, anotações de aula, páginas de livro. Sem conta, sem anúncios; no celular ou no tablet, <b>seus documentos nunca saem do seu aparelho.</b>",
- "k008": "Em breve",
  "k009": "Como funciona?",
  "k010": "34 idiomas",
  "k011": "Funciona offline",
@@ -95,9 +94,9 @@
  "k078": "Sem conta, sem e-mail, sem senha.",
  "k079": "Sem anúncios, sem rastreadores.",
  "k080": "Digitalização e OCR funcionam offline.",
- "k081": "Menos de <em>US$ 1</em> por mês!",
- "k082": "Um mês inteiro de Pro ilimitado — <em>pelo preço de uma garrafa de água!</em><small>US$ 0,99 / mês</small>",
- "k083": "Um ano inteiro de Pro ilimitado — <em>mais barato que um hambúrguer!</em><small>US$ 7,99 / ano · 7 dias grátis</small>",
+ "k081": "Menos de um dólar. <em>Mais que um scanner!</em>",
+ "k082": "Seu café esfria, o Pro dura 30 dias. <em>US$ 0,99 por mês: menos que um café na cafeteria!</em><small>renova todo mês até ser cancelada</small>",
+ "k083": "Um combo de hambúrguer dura uma refeição, o Pro dura o ano todo. <em>US$ 7,99 por ano: menos que um combo de hambúrguer médio!</em><small>cerca de US$ 0,67 por mês · 7 dias grátis, depois cobrança anual se não cancelar</small>",
  "k084": "Preços? Daqueles que fazem sorrir!",
  "k085": "Comece grátis; vire Pro quando quiser e cancele quando quiser.",
  "k086": "Grátis",
@@ -109,7 +108,7 @@
  "k092": "O QUERIDINHO",
  "k093": "Pro · Anual",
  "k094": "US$ 7,99<small>/ano</small>",
- "k095": "Um ano inteiro de Pro ilimitado — <b>mais barato que um hambúrguer!</b><br>≈ US$ 0,67 por mês · <b>7 dias grátis</b>",
+ "k095": "Um ano inteiro de Pro ilimitado<br>≈ US$ 0,67 por mês · <b>7 dias grátis</b>, depois US$ 7,99 por ano se não cancelar",
  "k096": "Tudo do Grátis",
  "k097": "PDFs sem a marca do mScanner",
  "k098": "Pronto para impressão, limpar toner, livro e sombras",
@@ -117,11 +116,11 @@
  "k100": "Assinatura, carimbo, marca d'água, edição em lote",
  "k101": "Pro · Mensal",
  "k102": "US$ 0,99<small>/mês</small>",
- "k103": "Um mês inteiro de Pro ilimitado — <b>pelo preço de uma garrafa de água!</b> Cancele quando quiser.",
+ "k103": "Um mês inteiro de Pro ilimitado. Renova todo mês até você cancelar; cancele quando quiser.",
  "k104": "Todo o Pro",
  "k105": "Liberdade mês a mês",
  "k106": "Pagamento seguro pelo Google Play",
- "k107": "Preços nos EUA: US$ 0,99 por mês, US$ 7,99 por ano. Em outros países, o Google Play mostra o preço local com impostos (no Brasil, R$ 4,99 por mês). A assinatura renova a cada período até ser cancelada; cancele quando quiser em Google Play › Assinaturas e o Pro continua até o fim do período pago.",
+ "k107": "Preços nos EUA: US$ 0,99 por mês, US$ 7,99 por ano. Em outros países, a loja mostra o preço local com impostos (no Brasil, R$ 4,99 por mês no Google Play); vale o preço da tela de compra. O teste grátis de 7 dias do plano anual vira uma assinatura anual paga se não for cancelado pelo menos 24 horas antes do fim. A assinatura renova a cada período até ser cancelada; cancele quando quiser em Google Play › Assinaturas ou App Store › Assinaturas e o Pro continua até o fim do período pago. Detalhes: <a href=\"subscription.html\">Informações da assinatura</a>. As comparações usam preços típicos dos EUA em 2026 para um café na cafeteria e um combo de hambúrguer de fast-food.",
  "k108": "Perguntas e respostas",
  "k109": "Preciso de uma conta?",
  "k110": "Não. Abra o app e comece a digitalizar.",
@@ -135,7 +134,6 @@
  "k118": "Está chegando! Em breve na App Store.",
  "k119": "Tenho um problema — para quem escrevo?",
  "k120": "Escreva para <a href=\"mailto:info@mscanner.com.tr\">info@mscanner.com.tr</a> — Configurações › Fale conosco no app também vai para lá.",
- "k121": "Em breve",
  "k122": "Personagens e ilustrações são originais do mScanner.",
  "k123": "Em breve",
  "k124": "Em breve",
@@ -178,6 +176,7 @@
  "k177": "Envie o PDF para uma pasta na nuvem pelo Compartilhar ou por e-mail para o seu computador.",
  "k178": "Arquivo",
  "k179": "Notas fiscais, garantias, exames médicos: no celular ou tablet, em pasta com PIN, se quiser.",
+ "k180": "Preço nos EUA: US$ 0,99 por mês · os preços variam por país",
  "ticker": "<span>✦ DIGITALIZE</span><span>✦ RECORTE</span><span>✦ MELHORE</span><span>✦ PDF</span><span>✦ COMPARTILHE</span><span>✦ OCR</span><span>✦ 34 IDIOMAS</span><span>✦ SEM ANÚNCIOS</span><span>✦ DIGITALIZE</span><span>✦ RECORTE</span><span>✦ MELHORE</span><span>✦ PDF</span><span>✦ COMPARTILHE</span><span>✦ OCR</span><span>✦ 34 IDIOMAS</span><span>✦ SEM ANÚNCIOS</span>",
  "_badge": {
   "soon": "Em breve",
@@ -186,5 +185,6 @@
  "_meta": {
   "title": "mScanner — O scanner milagroso no seu bolso",
   "description": "Digitalize, recorte, melhore e transforme documentos em PDF. Sem conta, sem anúncios, tudo fica no seu celular. Pro por menos de US$ 1 por mês."
- }
+ },
+ "_play": "Disponível no Google Play"
 }
