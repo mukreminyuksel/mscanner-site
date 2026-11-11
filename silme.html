@@ -24,7 +24,7 @@ li{margin:4px 0}
 <li><strong>PIN:</strong> yalnız tuzlu özeti cihazın güvenli anahtar deposunda tutulur. Android'de uygulama kaldırılınca silinir. iOS'ta Anahtar Zinciri kayıtları uygulama kaldırıldıktan sonra cihazda kalabilir; bu kayıt yalnız PIN özetini içerir, belge içermez. Cihazı sıfırlamak bu kaydı da siler.</li>
 </ul>
 <h2>2. Abonelik kaydı (RevenueCat) — bizden silinmesini istersiniz</h2>
-<p>Uygulama aboneliği doğrulamak için kullandığımız RevenueCat hizmetine yalnız gerektiğinde bağlanır: mScanner Pro ekranını açtığınızda, “Satın alımları geri yükle”ye ya da “Destek kimliği”ne dokunduğunuzda veya satın aldığınızda. O zaman RevenueCat'te <strong>adınızı içermeyen (takma adlı) bir uygulama kullanıcı kimliği</strong>, satın aldıysanız ayrıca <strong>satın alma geçmişi</strong> (ürün, işlem/sipariş kimliği, tarih, mağaza, ülke ve para birimi) bulunur. Adınız, e-posta adresiniz veya kart bilgileriniz bu kayıtta yoktur. Bunların hiçbirini yapmadıysanız bizde size ait bir kayıt yoktur.</p>
+<p>Uygulama aboneliği doğrulamak için kullandığımız RevenueCat hizmetine yalnız gerektiğinde bağlanır: mScanner Pro ekranını açtığınızda, “Satın alımları geri yükle”ye ya da “Destek kimliği”ne dokunduğunuzda veya satın aldığınızda. O zaman RevenueCat'te <strong>adınızı içermeyen (takma adlı) bir uygulama kullanıcı kimliği</strong>, satın aldıysanız ayrıca <strong>satın alma geçmişi</strong> (ürün, işlem/sipariş kimliği, tarih, mağaza, ülke ve para birimi) bulunur. Adınız, e-posta adresiniz veya kart bilgileriniz bu kayıtta yoktur. Bunların hiçbirini yapmadıysanız uygulama RevenueCat'e bir şey göndermez. ⟨SÜRÜM⟩ öncesi sürümler ise her açılışta bağlanıyordu; o sürümleri kullandıysanız eski bir kaydınız bulunabilir. Onun silinmesini de aynı yolla isteyebilirsiniz.</p>
 <p><strong>Silme talebi nasıl yapılır:</strong></p>
 <ol>
 <li value="1"><strong>info@mscanner.com.tr</strong> adresine “mScanner veri silme” konulu bir e-posta gönderin.</li>
@@ -34,16 +34,17 @@ li{margin:4px 0}
 <li><strong>Google Play sipariş numarası</strong> (“GPA.” ile başlar) — Google'ın satın alma e-postasında veya play.google.com › Ödemeler ve abonelikler › Bütçe ve geçmiş bölümünde.</li>
 <li><strong>Apple sipariş kimliği (Order ID)</strong> — Apple'ın fatura e-postasında veya reportaproblem.apple.com sayfasında.</li>
 <li>Hiç satın alma yapmadıysanız: uygulamada Ayarlar › Abonelik bölümündeki <strong>Destek kimliği</strong>.</li>
+<li>İkisi de yoksa (ör. uygulamanın destek kimliğini artık göstermediği bir cihazda): ülke, telefonun işletim sistemi ve Pro ekranının yaklaşık ne zaman kullanıldığı. Satın alma içermeyen eşleşen kayıtları arar ve sileriz; bulamazsak size bildiririz.</li>
 </ul>
 <ol>
 <li value="3">Kart numarası, şifre, kimlik belgesi veya başka kişisel bilgi <strong>göndermeyin</strong>; istemeyiz.</li>
 </ol>
-<p>Ebeveynler, çocuklarının cihazına ait kaydın incelenmesini ya da silinmesini aynı yolla isteyebilir. Talebi doğrulamak için makul kontroller yaparız. Mağaza bir kullanıcının 13 yaşından küçük olduğunu bildirirse uygulama o cihazda RevenueCat'e hiç bağlanmaz; bu yüzden o kullanıcı için yeni kayıt oluşmaz.</p>
+<p>Ebeveynler, çocuklarının cihazına ait kaydın incelenmesini, silinmesini ya da artık kullanılmamasını aynı yolla isteyebilir; talebi doğrulamak için makul kontroller yaparız. Mağaza bir kullanıcının 13 yaşından küçük olduğunu bildirirse uygulama o cihazda RevenueCat'e hiç bağlanmaz; bu yüzden o kullanıcı için yeni kayıt oluşmaz. Diğer cihazlarda uygulama yalnız gizlilik politikasının 5. bölümündeki durumlarda bağlanır: o cihazda hiç Pro olmadıysa Pro ekranını, “Satın alımları geri yükle”yi ve “Destek kimliği”ni kullanmamak gelecekteki toplamayı en geç 30 günde durdurur; uygulamayı kaldırmak her durumda durdurur. Bir kaydın, ebeveyninin doğrulanabilir onayı olmayan 13 yaş altı bir çocuğa ait olduğunu öğrenirsek onu en geç 30 gün içinde sileriz.</p>
 <p>Bu numara ya da kimlikle RevenueCat'teki takma adlı kaydı buluruz, RevenueCat'in müşteri kaydı silme işleviyle sileriz ve sonucu aynı adresten size yazarız. Başvurular 6698 sayılı KVKK uyarınca en geç 30 gün içinde yanıtlanır.</p>
 <p><strong>Silinmeyen veya kalabilecek kayıtlar ve nedenleri:</strong></p>
 <ul>
 <li><strong>Google Play ve App Store'un kendi satış kayıtları:</strong> satışı mağazalar yapar ve kendi kayıtlarını kendi politikalarına göre tutar; bunları biz silemeyiz. Bu kayıtlar için Google veya Apple'a başvurabilirsiniz.</li>
-<li><strong>RevenueCat'in yedekleri:</strong> silinen kayıt, sağlayıcının kendi yedekleme ve saklama süreleri boyunca yedeklerinde kalabilir (<a href="https://www.revenuecat.com/privacy">RevenueCat gizlilik politikası</a>). Bu süreyi biz belirlemiyoruz.</li>
+<li><strong>RevenueCat'in yedekleri:</strong> silinen kayıt, RevenueCat'in standart yedekleme ve arşiv uygulamaları gereği bir süre yedeklerinde kalabilir; RevenueCat bu süreyi açıklamıyor (<a href="https://www.revenuecat.com/dpa">RevenueCat veri işleme eki</a>). Onu geri yüklemeyiz ve kullanmayız.</li>
 <li><strong>Ödeme ve muhasebe kayıtları:</strong> mağazaların bize ilettiği ödeme raporları (sipariş/işlem bilgileri, ürün, tutar, ülke) vergi ve ticaret mevzuatının öngördüğü süre boyunca saklanır. Bu raporlarda adınız veya kart bilgileriniz bulunmaz.</li>
 <li><strong>Aboneliğiniz sürüyorsa:</strong> silme aboneliği iptal etmez. Uygulama mağazadan abonelik durumunu sorduğunda RevenueCat'te yeniden takma adlı bir kayıt oluşur.</li>
 </ul>
