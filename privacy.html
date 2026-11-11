@@ -15,7 +15,7 @@ li{margin:4px 0}
 </style></head>
 <body><main><nav><a href="index.html">mScanner</a><a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy</a><a href="kosullar.html">Koşullar</a><a href="terms.html">Terms</a><a href="silme.html">Veri silme</a><a href="data-deletion.html">Data deletion</a><a href="abonelik.html">Abonelik</a><a href="subscription.html">Subscription</a><a href="iletisim.html">İletişim</a><a href="contact.html">Contact</a></nav>
 <h1>mScanner Privacy Policy</h1>
-<p>Last updated: 2 November 2026 · App version 2.31 and later</p>
+<p>Last updated: 11 November 2026 · App version 2.31 and later (sections 5 and 8: from the first app update released after this date)</p>
 <p>mScanner (“the app”) is a document scanner developed by MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ. This policy explains what information the app processes and how.</p>
 <p><strong>Data controller:</strong> MY İŞLETME DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ · ATATÜRK MAH. FEVZİ PAŞA CADDESİ, BÜYÜK ÇARŞI NO 35, KAT 3, NO:316, MERKEZ, ERZİNCAN 24050, TÜRKİYE · info@mscanner.com.tr · MERSİS 0627135184200001 · Erzincan Trade Registry no. 10080</p>
 <h2>In short</h2>
@@ -23,7 +23,8 @@ li{margin:4px 0}
 <li>Your documents are processed and stored <strong>on your device</strong>. We run no server; your documents are never sent to us.</li>
 <li>No account is needed. There are <strong>no</strong> ads, ad tracking or analytics tools.</li>
 <li>The app itself never sends your documents to any AI server. For AI prompts you can, if you wish, hand the text to an AI app installed on your phone <strong>yourself</strong>.</li>
-<li>If you buy a subscription, payment is handled by Apple or Google and subscription status by RevenueCat.</li>
+<li>If you buy a subscription, payment is handled by Apple or Google and subscription status by RevenueCat. The app contacts RevenueCat only when it is needed (section 5).</li>
+<li>In US states whose law requires it, the app asks Apple or Google for your age range; the answer stays on your device (section 8).</li>
 </ul>
 <h2>1. Documents and scanning</h2>
 <p>Pages you capture or import, crop/filter results, PDFs, notes, text recognition (OCR) results, signatures and watermarks are stored in the app's private folder on your device. Edge detection, filters and text recognition run on the device.</p>
@@ -37,7 +38,7 @@ li{margin:4px 0}
 <ul>
 <li><strong>Camera:</strong> to scan documents and QR/barcodes. Images stay on the device.</li>
 <li><strong>Photos:</strong> to pick images to scan and, when you ask, to save pages to Photos. On Android the system photo picker is used: the app sees only the images you pick and never asks for access to all your photos.</li>
-<li><strong>Internet:</strong> subscriptions (RevenueCat and the store), opening links, and on Android downloading the ML Kit text recognition/scanner components and the on-device AI model through Google Play services, plus the technical metrics Google collects for those components (below). The content of your documents is not sent.</li>
+<li><strong>Internet:</strong> subscriptions (RevenueCat and the store, only when needed; section 5), opening links, and on Android downloading the ML Kit text recognition/scanner components and the on-device AI model through Google Play services, plus the technical metrics Google collects for those components (below). The content of your documents is not sent.</li>
 <li><strong>Face ID / fingerprint / device lock:</strong> only to confirm it's you when resetting the hidden folder's PIN; no biometric data reaches the app.</li>
 </ul>
 <h2>3. PIN-protected hidden folder</h2>
@@ -47,23 +48,28 @@ li{margin:4px 0}
 <p><strong>The phone's own AI:</strong> If your phone has an on-device language model (Apple Intelligence on iOS 26 and later; Gemini Nano through Google's AICore service on some Android phones), the prompt runs on that model <strong>on the phone</strong> and the text does not leave it. On iOS only the on-device model is used, never Apple's server side (Private Cloud Compute). On Android the model may be downloaded by the system on first use, and Google may collect technical metrics to operate the service (<a href="https://developers.google.com/ml-kit/android-data-disclosure">Google ML Kit data disclosure</a>).</p>
 <h2>5. Subscriptions and purchases</h2>
 <p>If you buy mScanner Pro, payment is processed by the Apple App Store or Google Play; your card details never reach us. We use RevenueCat, Inc. to verify subscription status. RevenueCat processes an automatically generated pseudonymous app user ID that does not contain your name and purchase history (product, transaction, date, store) (<a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>). We do not ask for your name or email.</p>
+<p>The app contacts RevenueCat only when it is needed: when you open the mScanner Pro screen, tap “Restore purchases” or “Support ID” in Settings, when this device had Pro before, or for up to 30 days while a purchase waits for approval (for example a parent's) or a gift to your support ID is expected. If you never do any of these, the app sends nothing to RevenueCat and no RevenueCat record exists for you.</p>
+<p>If a purchase needs someone's approval (for example a parent's), the store keeps it pending; Pro turns on by itself once it is approved.</p>
 <h2>6. What we do not share</h2>
 <p>We do not sell your personal data, and we do not use it or share it with anyone for advertising, targeted advertising or profiling (there is no “sale” or “sharing” within the meaning of US state privacy laws). We do not transfer it to third parties other than the service providers named above, except where the law requires (and since no documents are on our servers, we hold no document content to disclose).</p>
 <h2>7. Retention and deletion</h2>
 <ul>
 <li><strong>Documents on your device:</strong> stay on your device until you delete them or uninstall the app; they never reach us.</li>
-<li><strong>Subscription records (RevenueCat):</strong> kept while the subscription is active and for at most 3 years after it ends, then deleted; deleted earlier if you ask.</li>
+<li><strong>Subscription records (RevenueCat):</strong> created only when the app contacts RevenueCat (section 5); kept while the subscription is active and for at most 3 years after it ends (a record without a purchase: at most 3 years after it was last used), then deleted; deleted earlier if you ask.</li>
+<li><strong>Age range (section 8):</strong> not kept. Only the time of the last request stays on your device, so the app does not ask again within a year.</li>
 <li><strong>The stores' payment and sales reports</strong> (order number, product, amount, country; no name or card details): kept for 10 years as required by Turkish commercial and tax law (Law No. 6563 Art. 11, Turkish Commercial Code Art. 82, Tax Procedure Law Art. 253).</li>
 <li><strong>Support emails:</strong> kept for at most 3 years after the request is closed.</li>
 <li><strong>Website logs:</strong> subject to GitHub's own retention policy.</li>
 <li>The subscription is managed or cancelled in your store account settings. Detailed deletion steps, records that are not deleted and why: https://mscanner.com.tr/data-deletion.html</li>
 </ul>
-<h2>8. Children</h2>
-<p>The app is not directed at children under 13 and does not knowingly collect personal data from children.</p>
+<h2>8. Children and the age range from the store</h2>
+<p>mScanner is a general-audience tool and is not directed at children under 13. It has no age-restricted content and works the same for every age; for minors, the store handles parental consent for downloads and purchases.</p>
+<p><strong>Age range from the store (US):</strong> some US states require apps to ask the app store or the operating system for the user's age range (Texas, and from 1 January 2027 California and Alabama; Utah and Louisiana later). Where such a law applies, the app asks Apple (Declared Age Range) or Google Play (Age Signals) for the age range — under 13, 13–15, 16–17 or 18 and over — when it is first opened and again at most once a year. The answer stays in the app's memory on your device. It is not stored, not sent to us, to RevenueCat or to anyone else, and not used for advertising, profiling or analytics; it is used only to comply with the law. On iPhone and iPad the app asks only when Apple reports that such a law applies to your account; on Android, only when your phone's region or time zone is in the United States.</p>
+<p><strong>Children under 13:</strong> we do not collect personal data from children for our own purposes. If the store reports that a user is under 13 and that user opens the subscription screen, restores purchases or buys with a parent's approval, RevenueCat receives only the pseudonymous app user ID and the purchase records described in section 5. These are used only to provide the subscription — verifying and restoring it, unlocking Pro and answering support requests — and for the network connection this needs. They are not used to contact the child, to build a profile, for advertising or for any other purpose; RevenueCat processes them only on our instructions as our service provider, and the app contains no advertising or analytics tools. A parent can ask us to delete this record at info@mscanner.com.tr (section 7).</p>
 <h2>9. Notice under Turkish law (KVKK) and your rights</h2>
 <p>This section is our notice as data controller under Article 10 of the Turkish Personal Data Protection Law No. 6698 (KVKK).</p>
 <ul>
-<li><strong>Personal data we process:</strong> Your documents never reach us, so we do not process them. We process only: if you buy a subscription, the pseudonymous app user ID and purchase records in RevenueCat (product, transaction/order number, date, store, store country); if you email us, your email address and the content of the correspondence; if you visit our website, the technical logs kept by the hosting provider (section 11).</li>
+<li><strong>Personal data we process:</strong> Your documents never reach us, so we do not process them. We process only: if the app contacts RevenueCat (when you open the subscription screen or buy a subscription; section 5), the pseudonymous app user ID and purchase records in RevenueCat (product, transaction/order number, date, store, store country); if you email us, your email address and the content of the correspondence; if you visit our website, the technical logs kept by the hosting provider (section 11).</li>
 <li><strong>Purposes and legal bases:</strong></li>
 <li>Verifying the subscription, unlocking Pro and handling termination and refund requests: establishing and performing a contract (KVKK Art. 5/2-c).</li>
 <li>Keeping commercial and tax records: legal obligation (Art. 5/2-ç).</li>
@@ -94,6 +100,7 @@ li{margin:4px 0}
 <h2>13. Changes, version history and contact</h2>
 <ul>
 <li>If this policy changes we publish the current version at this address and update the “Last updated” date.</li>
+<li><strong>11 November 2026:</strong> age range from the store in US states whose law requires it and the children section (section 8); RevenueCat contacted only when needed and pending purchases (sections 2, 5 and 7).</li>
 <li><strong>2 November 2026:</strong> the company's registered e-mail (KEP) address added to contact details and ways to apply.</li>
 <li><strong>30 October 2026:</strong> added the KVKK notice, application channels, retention periods, the EU/UK/Switzerland section and the website section.</li>
 <li><strong>23 October 2026:</strong> first published version.</li>
