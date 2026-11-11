@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mscanner.com.tr/sitemap.xml
